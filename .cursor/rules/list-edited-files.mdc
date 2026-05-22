@@ -1,0 +1,15 @@
+---
+description: After changing files, list paths so the user can open them in one click
+alwaysApply: true
+---
+
+# Edited files (for the user)
+
+Whenever you **write or StrReplace** project files (not only chat), end the **final** reply with a short block:
+
+**Edited files**
+
+- One bullet per path, **workspace-relative** from repo root, in backticks (example: `` `src/Foo/Bar.cs` ``).
+- Include only files you actually modified in this turn (not generated noise like lockfiles unless you touched them).
+
+Do not ask the user to “review all files” in prose; the list is enough for Cmd/Ctrl+Click in Cursor.

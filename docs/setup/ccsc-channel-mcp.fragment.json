@@ -1,0 +1,11 @@
+{
+  "ccsc-channel": {
+    "command": "node",
+    "args": [
+      "REPLACE_WITH_ABSOLUTE_PATH_TO_REPO\\src\\CcSessionsCoord.ChannelBridge\\dist\\index.js"
+    ],
+    "env": {
+      "CCSC_WORKER_BASE": "http://127.0.0.1:7733"
+    }
+  }
+}

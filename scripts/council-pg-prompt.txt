@@ -1,0 +1,25 @@
+Windows 11, PostgreSQL 18 (postgresql-x64-18), data: C:\Program Files\PostgreSQL\18\data
+
+REPRODUCIBLE after full reboot AND after restart-pg-hard.ps1 (stop service, kill all postgres.exe, start service):
+
+- Windows service: Running
+- netstat: TCP 0.0.0.0:5432 LISTENING (process postgres)
+- pg_isready -h 127.0.0.1: "no response" (always)
+- psql host=127.0.0.1: timeout or "server closed connection unexpectedly"
+- Invoke-RestMethod ccsc :7733/health: 503 "Failed to connect to 127.0.0.1:5432"
+- Windows Event Log (PostgreSQL): "Server wurde gestartet und nimmt Verbindungen an"
+- pg_ctl status -D datadir: "kein Server laeuft" (contradiction)
+- postmaster.pid exists, status field "ready"
+- New log file after start often only ONE line: "Datenbanksystem wurde am ... heruntergefahren" (no "accepting connections" in file log; event log claims logging redirected to collector)
+- pg_controldata: cluster "im Produktionsmodus", checkpoints complete
+- listen_addresses=*, port 5432, pg_hba scram-sha-256 for 127.0.0.1
+- Previously: many SYN_RECEIVED on 5432 including <client-ip> and 169.254.x (virtual adapters)
+- 32 NSSM services on machine: none bind port 5432 (only MCP proxies on 14xxx, opencode 12121, etc.)
+
+RULED OUT: NSSM blocking port 5432; ccsc application bug as primary cause.
+
+Answer in GERMAN, max 220 words:
+1) Top 3 root causes (ranked, specific to evidence)
+2) ONE diagnostic step to confirm #1 (exact command)
+3) ONE repair path preserving existing data directory
+No "just reboot". Be skeptical of contradictory event log vs pg_isready.

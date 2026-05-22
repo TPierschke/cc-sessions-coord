@@ -1,0 +1,26 @@
+{
+  "name": "ccsessionscoord.channelbridge",
+  "version": "0.3.11",
+  "private": true,
+  "description": "stdio MCP bridge: Postgres LISTEN/NOTIFY -> Claude Code notifications/claude/channel + coord tools",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "verify": "node ../../tests/smoke/bridge-contract.mjs",
+    "verify:http": "node ../../tests/smoke/bridge-http-inject.mjs",
+    "verify:render": "node ../../tests/smoke/render-injection.mjs",
+    "verify:all": "npm run build && npm run verify && npm run verify:render && npm run verify:http"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/pg": "^8.11.10",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,1753 @@
+- generic [ref=e2]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#content-area"
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e9]:
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - link "Claude Code Docs home page light logo" [ref=e14] [cursor=pointer]:
+              - /url: /docs/en/overview
+              - generic [ref=e15]: Claude Code Docs home page
+              - img "light logo" [ref=e16]
+            - button "English" [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: English
+              - img [ref=e20]
+          - generic [ref=e22]:
+            - button "Open search" [ref=e23] [cursor=pointer]:
+              - generic [ref=e24]:
+                - img [ref=e25]
+                - generic [ref=e28]: Search...
+              - generic [ref=e29]: ⌘K
+            - button "Toggle assistant panel" [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+              - generic [ref=e34]: Ask AI
+          - generic [ref=e35]:
+            - navigation [ref=e36]:
+              - list [ref=e37]:
+                - listitem [ref=e38]:
+                  - link "Claude Developer Platform" [ref=e39] [cursor=pointer]:
+                    - /url: https://platform.claude.com/
+                - listitem [ref=e40]:
+                  - link "Claude Code on the Web" [ref=e41] [cursor=pointer]:
+                    - /url: https://claude.ai/code
+                    - generic [ref=e43]:
+                      - generic [ref=e44]: Claude Code on the Web
+                      - img [ref=e45]
+            - button "Toggle dark mode" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+        - generic [ref=e57]:
+          - link "Getting started" [ref=e58] [cursor=pointer]:
+            - /url: /docs/en/overview
+            - text: Getting started
+          - link "Build with Claude Code" [ref=e60] [cursor=pointer]:
+            - /url: /docs/en/agents
+            - text: Build with Claude Code
+          - link "Administration" [ref=e62] [cursor=pointer]:
+            - /url: /docs/en/admin-setup
+            - text: Administration
+          - link "Configuration" [ref=e64] [cursor=pointer]:
+            - /url: /docs/en/settings
+            - text: Configuration
+          - link "Reference" [ref=e66] [cursor=pointer]:
+            - /url: /docs/en/cli-reference
+            - text: Reference
+          - link "Agent SDK" [ref=e68] [cursor=pointer]:
+            - /url: /docs/en/agent-sdk/overview
+            - text: Agent SDK
+          - link "What's New" [ref=e70] [cursor=pointer]:
+            - /url: /docs/en/whats-new
+            - text: What's New
+          - link "Resources" [ref=e72] [cursor=pointer]:
+            - /url: /docs/en/legal-and-compliance
+            - text: Resources
+      - generic [ref=e74]:
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - heading "Reference" [level=5] [ref=e81]
+            - list [ref=e82]:
+              - listitem [ref=e83]:
+                - link "CLI reference" [ref=e84] [cursor=pointer]:
+                  - /url: /docs/en/cli-reference
+                  - generic [ref=e87]: CLI reference
+              - listitem [ref=e88]:
+                - link "Commands" [ref=e89] [cursor=pointer]:
+                  - /url: /docs/en/commands
+                  - generic [ref=e92]: Commands
+              - listitem [ref=e93]:
+                - link "Environment variables" [ref=e94] [cursor=pointer]:
+                  - /url: /docs/en/env-vars
+                  - generic [ref=e97]: Environment variables
+              - listitem [ref=e98]:
+                - link "Tools reference" [ref=e99] [cursor=pointer]:
+                  - /url: /docs/en/tools-reference
+                  - generic [ref=e102]: Tools reference
+              - listitem [ref=e103]:
+                - link "Interactive mode" [ref=e104] [cursor=pointer]:
+                  - /url: /docs/en/interactive-mode
+                  - generic [ref=e107]: Interactive mode
+              - listitem [ref=e108]:
+                - link "Checkpointing" [ref=e109] [cursor=pointer]:
+                  - /url: /docs/en/checkpointing
+                  - generic [ref=e112]: Checkpointing
+              - listitem [ref=e113]:
+                - link "Hooks reference" [ref=e114] [cursor=pointer]:
+                  - /url: /docs/en/hooks
+                  - generic [ref=e117]: Hooks reference
+              - listitem [ref=e118]:
+                - link "Plugins reference" [ref=e119] [cursor=pointer]:
+                  - /url: /docs/en/plugins-reference
+                  - generic [ref=e122]: Plugins reference
+              - listitem [ref=e123]:
+                - link "Channels reference" [ref=e124] [cursor=pointer]:
+                  - /url: /docs/en/channels-reference
+                  - generic [ref=e127]: Channels reference
+          - generic [ref=e128]:
+            - heading "Glossary" [level=5] [ref=e130]
+            - list [ref=e131]:
+              - listitem [ref=e132]:
+                - link "Glossary" [ref=e133] [cursor=pointer]:
+                  - /url: /docs/en/glossary
+                  - generic [ref=e136]: Glossary
+        - generic [ref=e139]:
+          - banner [ref=e140]:
+            - generic [ref=e141]:
+              - generic [ref=e142]: Reference
+              - generic [ref=e143]:
+                - heading "Channels reference" [level=1] [ref=e144]
+                - generic [ref=e145]:
+                  - button "Copy page" [ref=e146] [cursor=pointer]:
+                    - generic [ref=e147]:
+                      - img [ref=e148]
+                      - generic [ref=e151]: Copy page
+                  - button "More actions" [ref=e152] [cursor=pointer]:
+                    - img [ref=e153]
+            - paragraph [ref=e156]: "Build an MCP server that pushes webhooks, alerts, and chat messages into a Claude Code session. Reference for the channel contract: capability declaration, notification events, reply tools, sender gating, and permission relay."
+          - generic [ref=e157]:
+            - blockquote [ref=e158]:
+              - heading "Documentation Index" [level=2] [ref=e159]
+              - paragraph [ref=e160]:
+                - text: "Fetch the complete documentation index at:"
+                - link "https://code.claude.com/docs/llms.txt" [ref=e161] [cursor=pointer]:
+                  - /url: https://code.claude.com/docs/llms.txt
+              - paragraph [ref=e162]: Use this file to discover all available pages before exploring further.
+            - generic [ref=e163]:
+              - img "Note" [ref=e165]
+              - generic [ref=e168]:
+                - text: Channels are in
+                - link "research preview" [ref=e169] [cursor=pointer]:
+                  - /url: /docs/en/channels#research-preview
+                - text: and require Claude Code v2.1.80 or later. Team and Enterprise organizations must
+                - link "explicitly enable them" [ref=e170] [cursor=pointer]:
+                  - /url: /docs/en/channels#enterprise-controls
+                - text: .
+            - generic [ref=e171]: A channel is an MCP server that pushes events into a Claude Code session so Claude can react to things happening outside the terminal.
+            - generic [ref=e172]:
+              - text: You can build a one-way or two-way channel. One-way channels forward alerts, webhooks, or monitoring events for Claude to act on. Two-way channels like chat bridges also
+              - link "expose a reply tool" [ref=e173] [cursor=pointer]:
+                - /url: "#expose-a-reply-tool"
+              - text: so Claude can send messages back. A channel with a trusted sender path can also opt in to
+              - link "relay permission prompts" [ref=e174] [cursor=pointer]:
+                - /url: "#relay-permission-prompts"
+              - text: so you can approve or deny tool use remotely.
+            - generic [ref=e175]: "This page covers:"
+            - list [ref=e176]:
+              - listitem [ref=e177]:
+                - link "Overview" [ref=e178] [cursor=pointer]:
+                  - /url: "#overview"
+                - text: ": how channels work"
+              - listitem [ref=e179]:
+                - link "What you need" [ref=e180] [cursor=pointer]:
+                  - /url: "#what-you-need"
+                - text: ": requirements and general steps"
+              - listitem [ref=e181]:
+                - 'link "Example: build a webhook receiver" [ref=e182] [cursor=pointer]':
+                  - /url: "#example-build-a-webhook-receiver"
+                - text: ": a minimal one-way walkthrough"
+              - listitem [ref=e183]:
+                - link "Server options" [ref=e184] [cursor=pointer]:
+                  - /url: "#server-options"
+                - text: ": the constructor fields"
+              - listitem [ref=e185]:
+                - link "Notification format" [ref=e186] [cursor=pointer]:
+                  - /url: "#notification-format"
+                - text: ": the event payload and delivery behavior"
+              - listitem [ref=e187]:
+                - link "Expose a reply tool" [ref=e188] [cursor=pointer]:
+                  - /url: "#expose-a-reply-tool"
+                - text: ": let Claude send messages back"
+              - listitem [ref=e189]:
+                - link "Gate inbound messages" [ref=e190] [cursor=pointer]:
+                  - /url: "#gate-inbound-messages"
+                - text: ": sender checks to prevent prompt injection"
+              - listitem [ref=e191]:
+                - link "Relay permission prompts" [ref=e192] [cursor=pointer]:
+                  - /url: "#relay-permission-prompts"
+                - text: ": forward tool approval prompts to remote channels"
+            - generic [ref=e193]:
+              - text: To use an existing channel instead of building one, see
+              - link "Channels" [ref=e194] [cursor=pointer]:
+                - /url: /docs/en/channels
+              - text: . Telegram, Discord, iMessage, and fakechat are included in the research preview.
+            - heading "Navigate to header Overview" [level=2] [ref=e195]:
+              - link "Navigate to header" [ref=e196] [cursor=pointer]:
+                - /url: "#overview"
+                - img [ref=e198]
+              - generic [ref=e200] [cursor=pointer]: Overview
+            - generic [ref=e201]:
+              - text: A channel is an
+              - link "MCP" [ref=e202] [cursor=pointer]:
+                - /url: https://modelcontextprotocol.io
+              - text: "server that runs on the same machine as Claude Code. Claude Code spawns it as a subprocess and communicates over stdio. Your channel server is the bridge between external systems and the Claude Code session:"
+            - list [ref=e203]:
+              - listitem [ref=e204]:
+                - strong [ref=e205]: Chat platforms
+                - text: "(Telegram, Discord): your plugin runs locally and polls the platform’s API for new messages. When someone DMs your bot, the plugin receives the message and forwards it to Claude. No URL to expose."
+              - listitem [ref=e206]:
+                - strong [ref=e207]: Webhooks
+                - text: "(CI, monitoring): your server listens on a local HTTP port. External systems POST to that port, and your server pushes the payload to Claude."
+            - img "Architecture diagram showing external systems connecting to your local channel server, which communicates with Claude Code over stdio" [ref=e211]
+            - heading "Navigate to header What you need" [level=2] [ref=e212]:
+              - link "Navigate to header" [ref=e213] [cursor=pointer]:
+                - /url: "#what-you-need"
+                - img [ref=e215]
+              - generic [ref=e217] [cursor=pointer]: What you need
+            - generic [ref=e218]:
+              - text: The only hard requirement is the
+              - link "@modelcontextprotocol/sdk" [ref=e219] [cursor=pointer]:
+                - /url: https://www.npmjs.com/package/@modelcontextprotocol/sdk
+                - code [ref=e220]: "@modelcontextprotocol/sdk"
+              - text: package and a Node.js-compatible runtime.
+              - link "Bun" [ref=e221] [cursor=pointer]:
+                - /url: https://bun.sh
+              - text: ","
+              - link "Node" [ref=e222] [cursor=pointer]:
+                - /url: https://nodejs.org
+              - text: ", and"
+              - link "Deno" [ref=e223] [cursor=pointer]:
+                - /url: https://deno.com
+              - text: all work. The pre-built plugins in the research preview use Bun, but your channel doesn’t have to.
+            - generic [ref=e224]: "Your server needs to:"
+            - list [ref=e225]:
+              - listitem [ref=e226]:
+                - text: Declare the
+                - code [ref=e227]: claude/channel
+                - text: capability so Claude Code registers a notification listener
+              - listitem [ref=e228]:
+                - text: Emit
+                - code [ref=e229]: notifications/claude/channel
+                - text: events when something happens
+              - listitem [ref=e230]:
+                - text: Connect over
+                - link "stdio transport" [ref=e231] [cursor=pointer]:
+                  - /url: https://modelcontextprotocol.io/docs/concepts/transports#standard-io
+                - text: (Claude Code spawns your server as a subprocess)
+            - generic [ref=e232]:
+              - text: The
+              - link "Server options" [ref=e233] [cursor=pointer]:
+                - /url: "#server-options"
+              - text: and
+              - link "Notification format" [ref=e234] [cursor=pointer]:
+                - /url: "#notification-format"
+              - text: sections cover each of these in detail. See
+              - 'link "Example: build a webhook receiver" [ref=e235] [cursor=pointer]':
+                - /url: "#example-build-a-webhook-receiver"
+              - text: for a full walkthrough.
+            - generic [ref=e236]:
+              - text: During the research preview, custom channels aren’t on the
+              - link "approved allowlist" [ref=e237] [cursor=pointer]:
+                - /url: /docs/en/channels#supported-channels
+              - text: . Use
+              - code [ref=e238]: "--dangerously-load-development-channels"
+              - text: to test locally. See
+              - link "Test during the research preview" [ref=e239] [cursor=pointer]:
+                - /url: "#test-during-the-research-preview"
+              - text: for details.
+            - 'heading "Navigate to header Example: build a webhook receiver" [level=2] [ref=e240]':
+              - link "Navigate to header" [ref=e241] [cursor=pointer]:
+                - /url: "#example-build-a-webhook-receiver"
+                - img [ref=e243]
+              - generic [ref=e245] [cursor=pointer]: "Example: build a webhook receiver"
+            - generic [ref=e246]:
+              - text: This walkthrough builds a single-file server that listens for HTTP requests and forwards them into your Claude Code session. By the end, anything that can send an HTTP POST, like a CI pipeline, a monitoring alert, or a
+              - code [ref=e247]: curl
+              - text: command, can push events to Claude.
+            - generic [ref=e248]:
+              - text: This example uses
+              - link "Bun" [ref=e249] [cursor=pointer]:
+                - /url: https://bun.sh
+              - text: as the runtime for its built-in HTTP server and TypeScript support. You can use
+              - link "Node" [ref=e250] [cursor=pointer]:
+                - /url: https://nodejs.org
+              - text: or
+              - link "Deno" [ref=e251] [cursor=pointer]:
+                - /url: https://deno.com
+              - text: instead; the only requirement is the
+              - link "MCP SDK" [ref=e252] [cursor=pointer]:
+                - /url: https://www.npmjs.com/package/@modelcontextprotocol/sdk
+              - text: .
+            - list [ref=e253]:
+              - listitem [ref=e254]:
+                - generic [ref=e257]:
+                  - generic [ref=e258]: "1"
+                  - link "Navigate to header" [ref=e260] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e262]
+                - generic [ref=e264]:
+                  - paragraph [ref=e265]: Create the project
+                  - generic [ref=e266]:
+                    - generic [ref=e267]: "Create a new directory and install the MCP SDK:"
+                    - generic [ref=e268]:
+                      - generic [ref=e269]:
+                        - button "Report incorrect code" [ref=e271] [cursor=pointer]:
+                          - img [ref=e272]
+                        - button "Copy the contents from the code block" [ref=e275] [cursor=pointer]:
+                          - img [ref=e276]
+                        - button "Ask AI" [ref=e280] [cursor=pointer]:
+                          - img [ref=e281]
+                      - code [ref=e287]:
+                        - generic [ref=e288]: mkdir webhook-channel && cd webhook-channel
+                        - generic [ref=e289]: bun add @modelcontextprotocol/sdk
+              - listitem [ref=e290]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: "2"
+                  - link "Navigate to header" [ref=e296] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e298]
+                - generic [ref=e300]:
+                  - paragraph [ref=e301]: Write the channel server
+                  - generic [ref=e302]:
+                    - generic [ref=e303]:
+                      - text: Create a file called
+                      - code [ref=e304]: webhook.ts
+                      - text: ". This is your entire channel server: it connects to Claude Code over stdio, and it listens for HTTP POSTs on port 8788. When a request arrives, it pushes the body to Claude as a channel event."
+                    - generic [ref=e305]:
+                      - generic [ref=e306]:
+                        - generic "webhook.ts" [ref=e308]
+                        - generic [ref=e309]:
+                          - button "Report incorrect code" [ref=e311] [cursor=pointer]:
+                            - img [ref=e312]
+                          - button "Copy the contents from the code block" [ref=e315] [cursor=pointer]:
+                            - img [ref=e316]
+                          - button "Ask AI" [ref=e320] [cursor=pointer]:
+                            - img [ref=e321]
+                      - code [ref=e327]:
+                        - generic [ref=e328]: "#!/usr/bin/env bun"
+                        - generic [ref=e329]: "import { Server } from '@modelcontextprotocol/sdk/server/index.js'"
+                        - generic [ref=e330]: "import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'"
+                        - generic [ref=e331]: // Create the MCP server and declare it as a channel
+                        - generic [ref=e332]: const mcp = new Server(
+                        - generic [ref=e333]: "{ name: 'webhook', version: '0.0.1' },"
+                        - generic [ref=e334]: "{"
+                        - generic [ref=e335]: // this key is what makes it a channel — Claude Code registers a listener for it
+                        - generic [ref=e336]: "capabilities: { experimental: { 'claude/channel': {} } },"
+                        - generic [ref=e337]: // added to Claude's system prompt so it knows how to handle these events
+                        - generic [ref=e338]: "instructions: 'Events from the webhook channel arrive as <channel source=\"webhook\" ...>. They are one-way: read them and act, no reply expected.',"
+                        - generic [ref=e339]: "},"
+                        - generic [ref=e340]: )
+                        - generic [ref=e341]: // Connect to Claude Code over stdio (Claude Code spawns this process)
+                        - generic [ref=e342]: await mcp.connect(new StdioServerTransport())
+                        - generic [ref=e343]: // Start an HTTP server that forwards every POST to Claude
+                        - generic [ref=e344]: "Bun.serve({"
+                        - generic [ref=e345]: "port: 8788, // any open port works"
+                        - generic [ref=e346]: "// localhost-only: nothing outside this machine can POST"
+                        - generic [ref=e347]: "hostname: '127.0.0.1',"
+                        - generic [ref=e348]: "async fetch(req) {"
+                        - generic [ref=e349]: const body = await req.text()
+                        - generic [ref=e350]: "await mcp.notification({"
+                        - generic [ref=e351]: "method: 'notifications/claude/channel',"
+                        - generic [ref=e352]: "params: {"
+                        - generic [ref=e353]: "content: body, // becomes the body of the <channel> tag"
+                        - generic [ref=e354]: // each key becomes a tag attribute, e.g. <channel path="/" method="POST">
+                        - generic [ref=e355]: "meta: { path: new URL(req.url).pathname, method: req.method },"
+                        - generic [ref=e356]: "},"
+                        - generic [ref=e357]: "})"
+                        - generic [ref=e358]: return new Response('ok')
+                        - generic [ref=e359]: "},"
+                        - generic [ref=e360]: "})"
+                    - generic [ref=e361]: "The file does three things in order:"
+                    - list [ref=e362]:
+                      - listitem [ref=e363]:
+                        - strong [ref=e364]: Server configuration
+                        - text: ": creates the MCP server with"
+                        - code [ref=e365]: claude/channel
+                        - text: in its capabilities, which is what tells Claude Code this is a channel. The
+                        - link "instructions" [ref=e366] [cursor=pointer]:
+                          - /url: "#server-options"
+                          - code [ref=e367]: instructions
+                        - text: "string goes into Claude’s system prompt: tell Claude what events to expect, whether to reply, and how to route replies if it should."
+                      - listitem [ref=e368]:
+                        - strong [ref=e369]: Stdio connection
+                        - text: ": connects to Claude Code over stdin/stdout. This is standard for any"
+                        - link "MCP server" [ref=e370] [cursor=pointer]:
+                          - /url: https://modelcontextprotocol.io/docs/concepts/transports#standard-io
+                        - text: ": Claude Code spawns it as a subprocess."
+                      - listitem [ref=e371]:
+                        - strong [ref=e372]: HTTP listener
+                        - text: ": starts a local web server on port 8788. Every POST body gets forwarded to Claude as a channel event via"
+                        - code [ref=e373]: mcp.notification()
+                        - text: . The
+                        - code [ref=e374]: content
+                        - text: becomes the event body, and each
+                        - code [ref=e375]: meta
+                        - text: entry becomes an attribute on the
+                        - code [ref=e376]: <channel>
+                        - text: tag. The listener needs access to the
+                        - code [ref=e377]: mcp
+                        - text: instance, so it runs in the same process. You could split it into separate modules for a larger project.
+              - listitem [ref=e378]:
+                - generic [ref=e381]:
+                  - generic [ref=e382]: "3"
+                  - link "Navigate to header" [ref=e384] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e386]
+                - generic [ref=e388]:
+                  - paragraph [ref=e389]: Register your server with Claude Code
+                  - generic [ref=e390]:
+                    - generic [ref=e391]:
+                      - text: Add the server to your MCP config so Claude Code knows how to start it. For a project-level
+                      - code [ref=e392]: .mcp.json
+                      - text: in the same directory, use a relative path. For user-level config in
+                      - code [ref=e393]: ~/.claude.json
+                      - text: ", use the full absolute path so the server can be found from any project:"
+                    - generic [ref=e394]:
+                      - generic [ref=e395]:
+                        - generic ".mcp.json" [ref=e397]
+                        - generic [ref=e398]:
+                          - button "Report incorrect code" [ref=e400] [cursor=pointer]:
+                            - img [ref=e401]
+                          - button "Copy the contents from the code block" [ref=e404] [cursor=pointer]:
+                            - img [ref=e405]
+                          - button "Ask AI" [ref=e409] [cursor=pointer]:
+                            - img [ref=e410]
+                      - code [ref=e416]:
+                        - generic [ref=e417]: "{"
+                        - generic [ref=e418]: "\"mcpServers\": {"
+                        - generic [ref=e419]: "\"webhook\": { \"command\": \"bun\", \"args\": [\"./webhook.ts\"] }"
+                        - generic [ref=e420]: "}"
+                        - generic [ref=e421]: "}"
+                    - generic [ref=e422]: Claude Code reads your MCP config at startup and spawns each server as a subprocess.
+              - listitem [ref=e423]:
+                - generic [ref=e426]:
+                  - generic [ref=e427]: "4"
+                  - link "Navigate to header" [ref=e429] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e431]
+                - generic [ref=e433]:
+                  - paragraph [ref=e434]: Test it
+                  - generic [ref=e435]:
+                    - generic [ref=e436]: "During the research preview, custom channels aren’t on the allowlist, so start Claude Code with the development flag:"
+                    - generic [ref=e437]:
+                      - generic [ref=e438]:
+                        - button "Report incorrect code" [ref=e440] [cursor=pointer]:
+                          - img [ref=e441]
+                        - button "Copy the contents from the code block" [ref=e444] [cursor=pointer]:
+                          - img [ref=e445]
+                        - button "Ask AI" [ref=e449] [cursor=pointer]:
+                          - img [ref=e450]
+                      - code [ref=e456]:
+                        - generic [ref=e457]: claude --dangerously-load-development-channels server:webhook
+                    - generic [ref=e458]:
+                      - text: When Claude Code starts, it reads your MCP config, spawns your
+                      - code [ref=e459]: webhook.ts
+                      - text: as a subprocess, and the HTTP listener starts automatically on the port you configured (8788 in this example). You don’t need to run the server yourself.
+                    - generic [ref=e460]:
+                      - text: If you see “blocked by org policy,” your organization admin needs to
+                      - link "enable channels" [ref=e461] [cursor=pointer]:
+                        - /url: /docs/en/channels#enterprise-controls
+                      - text: first.
+                    - generic [ref=e462]: "In a separate terminal, simulate a webhook by sending an HTTP POST with a message to your server. This example sends a CI failure alert to port 8788 (or whichever port you configured):"
+                    - generic [ref=e463]:
+                      - generic [ref=e464]:
+                        - button "Report incorrect code" [ref=e466] [cursor=pointer]:
+                          - img [ref=e467]
+                        - button "Copy the contents from the code block" [ref=e470] [cursor=pointer]:
+                          - img [ref=e471]
+                        - button "Ask AI" [ref=e475] [cursor=pointer]:
+                          - img [ref=e476]
+                      - code [ref=e482]:
+                        - generic [ref=e483]: "curl -X POST localhost:8788 -d \"build failed on main: https://ci.example.com/run/1234\""
+                    - generic [ref=e484]:
+                      - text: The payload arrives in your Claude Code session as a
+                      - code [ref=e485]: <channel>
+                      - text: "tag:"
+                    - generic [ref=e486]:
+                      - generic [ref=e487]:
+                        - button "Report incorrect code" [ref=e489] [cursor=pointer]:
+                          - img [ref=e490]
+                        - button "Copy the contents from the code block" [ref=e493] [cursor=pointer]:
+                          - img [ref=e494]
+                        - button "Ask AI" [ref=e498] [cursor=pointer]:
+                          - img [ref=e499]
+                      - code [ref=e505]:
+                        - generic [ref=e506]: "<channel source=\"webhook\" path=\"/\" method=\"POST\">build failed on main: https://ci.example.com/run/1234</channel>"
+                    - generic [ref=e507]:
+                      - text: "In your Claude Code terminal, you’ll see Claude receive the message and start responding: reading files, running commands, or whatever the message calls for. This is a one-way channel, so Claude acts in your session but doesn’t send anything back through the webhook. To add replies, see"
+                      - link "Expose a reply tool" [ref=e508] [cursor=pointer]:
+                        - /url: "#expose-a-reply-tool"
+                      - text: .
+                    - generic [ref=e509]:
+                      - text: If the event doesn’t arrive, the diagnosis depends on what
+                      - code [ref=e510]: curl
+                      - text: "returned:"
+                    - list [ref=e511]:
+                      - listitem [ref=e512]:
+                        - strong [ref=e513]:
+                          - code [ref=e514]: curl
+                          - text: succeeds but nothing reaches Claude
+                        - text: ": run"
+                        - code [ref=e515]: /mcp
+                        - text: in your session to check the server’s status. “Failed to connect” usually means a dependency or import error in your server file; check the debug log at
+                        - code [ref=e516]: ~/.claude/debug/<session-id>.txt
+                        - text: for the stderr trace.
+                      - listitem [ref=e517]:
+                        - strong [ref=e518]:
+                          - code [ref=e519]: curl
+                          - text: fails with “connection refused”
+                        - text: ": the port is either not bound yet or a stale process from an earlier run is holding it."
+                        - code [ref=e520]: lsof -i :<port>
+                        - text: shows what’s listening;
+                        - code [ref=e521]: kill
+                        - text: the stale process before restarting your session.
+            - generic [ref=e522]:
+              - text: The
+              - link "fakechat server" [ref=e523] [cursor=pointer]:
+                - /url: https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/fakechat
+              - text: extends this pattern with a web UI, file attachments, and a reply tool for two-way chat.
+            - heading "Navigate to header Test during the research preview" [level=2] [ref=e524]:
+              - link "Navigate to header" [ref=e525] [cursor=pointer]:
+                - /url: "#test-during-the-research-preview"
+                - img [ref=e527]
+              - generic [ref=e529] [cursor=pointer]: Test during the research preview
+            - generic [ref=e530]:
+              - text: During the research preview, every channel must be on the
+              - link "approved allowlist" [ref=e531] [cursor=pointer]:
+                - /url: /docs/en/channels#research-preview
+              - text: "to register. The development flag bypasses the allowlist for specific entries after a confirmation prompt. This example shows both entry types:"
+            - generic [ref=e532]:
+              - generic [ref=e533]:
+                - button "Report incorrect code" [ref=e535] [cursor=pointer]:
+                  - img [ref=e536]
+                - button "Copy the contents from the code block" [ref=e539] [cursor=pointer]:
+                  - img [ref=e540]
+                - button "Ask AI" [ref=e544] [cursor=pointer]:
+                  - img [ref=e545]
+              - code [ref=e551]:
+                - generic [ref=e552]: "# Testing a plugin you're developing"
+                - generic [ref=e553]: claude --dangerously-load-development-channels plugin:yourplugin@yourmarketplace
+                - generic [ref=e554]: "# Testing a bare .mcp.json server (no plugin wrapper yet)"
+                - generic [ref=e555]: claude --dangerously-load-development-channels server:webhook
+            - generic [ref=e556]:
+              - text: The bypass is per-entry. Combining this flag with
+              - code [ref=e557]: "--channels"
+              - text: doesn’t extend the bypass to the
+              - code [ref=e558]: "--channels"
+              - text: entries. During the research preview, the approved allowlist is Anthropic-curated, so your channel stays on the development flag while you build and test.
+            - generic [ref=e559]:
+              - img "Note" [ref=e561]
+              - generic [ref=e564]:
+                - text: This flag skips the allowlist only. The
+                - code [ref=e565]: channelsEnabled
+                - text: organization policy still applies. Don’t use it to run channels from untrusted sources.
+            - heading "Navigate to header Server options" [level=2] [ref=e566]:
+              - link "Navigate to header" [ref=e567] [cursor=pointer]:
+                - /url: "#server-options"
+                - img [ref=e569]
+              - generic [ref=e571] [cursor=pointer]: Server options
+            - generic [ref=e572]:
+              - text: A channel sets these options in the
+              - link "Server" [ref=e573] [cursor=pointer]:
+                - /url: https://modelcontextprotocol.io/docs/concepts/servers
+                - code [ref=e574]: Server
+              - text: constructor. The
+              - code [ref=e575]: instructions
+              - text: and
+              - code [ref=e576]: capabilities.tools
+              - text: fields are
+              - link "standard MCP" [ref=e577] [cursor=pointer]:
+                - /url: https://modelcontextprotocol.io/docs/concepts/servers
+              - text: ;
+              - code [ref=e578]: capabilities.experimental['claude/channel']
+              - text: and
+              - code [ref=e579]: capabilities.experimental['claude/channel/permission']
+              - text: "are the channel-specific additions:"
+            - table [ref=e582]:
+              - rowgroup [ref=e583]:
+                - row "Field Type Description" [ref=e584]:
+                  - columnheader "Field" [ref=e585]
+                  - columnheader "Type" [ref=e586]
+                  - columnheader "Description" [ref=e587]
+              - rowgroup [ref=e588]:
+                - 'row "capabilities.experimental[''claude/channel''] object Required. Always {}. Presence registers the notification listener." [ref=e589]':
+                  - cell "capabilities.experimental['claude/channel']" [ref=e590]:
+                    - code [ref=e591]: capabilities.experimental['claude/channel']
+                  - cell "object" [ref=e592]:
+                    - code [ref=e593]: object
+                  - 'cell "Required. Always {}. Presence registers the notification listener." [ref=e594]':
+                    - text: Required. Always
+                    - code [ref=e595]: "{}"
+                    - text: . Presence registers the notification listener.
+                - 'row "capabilities.experimental[''claude/channel/permission''] object Optional. Always {}. Declares that this channel can receive permission relay requests. When declared, Claude Code forwards tool approval prompts to your channel so you can approve or deny them remotely. See Relay permission prompts." [ref=e596]':
+                  - cell "capabilities.experimental['claude/channel/permission']" [ref=e597]:
+                    - code [ref=e598]: capabilities.experimental['claude/channel/permission']
+                  - cell "object" [ref=e599]:
+                    - code [ref=e600]: object
+                  - 'cell "Optional. Always {}. Declares that this channel can receive permission relay requests. When declared, Claude Code forwards tool approval prompts to your channel so you can approve or deny them remotely. See Relay permission prompts." [ref=e601]':
+                    - text: Optional. Always
+                    - code [ref=e602]: "{}"
+                    - text: . Declares that this channel can receive permission relay requests. When declared, Claude Code forwards tool approval prompts to your channel so you can approve or deny them remotely. See
+                    - link "Relay permission prompts" [ref=e603] [cursor=pointer]:
+                      - /url: "#relay-permission-prompts"
+                    - text: .
+                - 'row "capabilities.tools object Two-way only. Always {}. Standard MCP tool capability. See Expose a reply tool." [ref=e604]':
+                  - cell "capabilities.tools" [ref=e605]:
+                    - code [ref=e606]: capabilities.tools
+                  - cell "object" [ref=e607]:
+                    - code [ref=e608]: object
+                  - 'cell "Two-way only. Always {}. Standard MCP tool capability. See Expose a reply tool." [ref=e609]':
+                    - text: Two-way only. Always
+                    - code [ref=e610]: "{}"
+                    - text: . Standard MCP tool capability. See
+                    - link "Expose a reply tool" [ref=e611] [cursor=pointer]:
+                      - /url: "#expose-a-reply-tool"
+                    - text: .
+                - row "instructions string Recommended. Added to Claude’s system prompt. Tell Claude what events to expect, what the <channel> tag attributes mean, whether to reply, and if so which tool to use and which attribute to pass back (like chat_id)." [ref=e612]:
+                  - cell "instructions" [ref=e613]:
+                    - code [ref=e614]: instructions
+                  - cell "string" [ref=e615]:
+                    - code [ref=e616]: string
+                  - cell "Recommended. Added to Claude’s system prompt. Tell Claude what events to expect, what the <channel> tag attributes mean, whether to reply, and if so which tool to use and which attribute to pass back (like chat_id)." [ref=e617]:
+                    - text: Recommended. Added to Claude’s system prompt. Tell Claude what events to expect, what the
+                    - code [ref=e618]: <channel>
+                    - text: tag attributes mean, whether to reply, and if so which tool to use and which attribute to pass back (like
+                    - code [ref=e619]: chat_id
+                    - text: ).
+            - generic [ref=e620]:
+              - text: To create a one-way channel, omit
+              - code [ref=e621]: capabilities.tools
+              - text: ". This example shows a two-way setup with the channel capability, tools, and instructions set:"
+            - generic [ref=e622]:
+              - generic [ref=e623]:
+                - button "Report incorrect code" [ref=e625] [cursor=pointer]:
+                  - img [ref=e626]
+                - button "Copy the contents from the code block" [ref=e629] [cursor=pointer]:
+                  - img [ref=e630]
+                - button "Ask AI" [ref=e634] [cursor=pointer]:
+                  - img [ref=e635]
+              - code [ref=e641]:
+                - generic [ref=e642]: "import { Server } from '@modelcontextprotocol/sdk/server/index.js'"
+                - generic [ref=e643]: const mcp = new Server(
+                - generic [ref=e644]: "{ name: 'your-channel', version: '0.0.1' },"
+                - generic [ref=e645]: "{"
+                - generic [ref=e646]: "capabilities: {"
+                - generic [ref=e647]: "experimental: { 'claude/channel': {} }, // registers the channel listener"
+                - generic [ref=e648]: "tools: {}, // omit for one-way channels"
+                - generic [ref=e649]: "},"
+                - generic [ref=e650]: // added to Claude's system prompt so it knows how to handle your events
+                - generic [ref=e651]: "instructions: 'Messages arrive as <channel source=\"your-channel\" ...>. Reply with the reply tool.',"
+                - generic [ref=e652]: "},"
+                - generic [ref=e653]: )
+            - generic [ref=e654]:
+              - text: To push an event, call
+              - code [ref=e655]: mcp.notification()
+              - text: with method
+              - code [ref=e656]: notifications/claude/channel
+              - text: . The params are in the next section.
+            - heading "Navigate to header Notification format" [level=2] [ref=e657]:
+              - link "Navigate to header" [ref=e658] [cursor=pointer]:
+                - /url: "#notification-format"
+                - img [ref=e660]
+              - generic [ref=e662] [cursor=pointer]: Notification format
+            - generic [ref=e663]:
+              - text: Your server emits
+              - code [ref=e664]: notifications/claude/channel
+              - text: "with two params:"
+            - table [ref=e667]:
+              - rowgroup [ref=e668]:
+                - row "Field Type Description" [ref=e669]:
+                  - columnheader "Field" [ref=e670]
+                  - columnheader "Type" [ref=e671]
+                  - columnheader "Description" [ref=e672]
+              - rowgroup [ref=e673]:
+                - row "content string The event body. Delivered as the body of the <channel> tag." [ref=e674]:
+                  - cell "content" [ref=e675]:
+                    - code [ref=e676]: content
+                  - cell "string" [ref=e677]:
+                    - code [ref=e678]: string
+                  - cell "The event body. Delivered as the body of the <channel> tag." [ref=e679]:
+                    - text: The event body. Delivered as the body of the
+                    - code [ref=e680]: <channel>
+                    - text: tag.
+                - 'row "meta Record<string, string> Optional. Each entry becomes an attribute on the <channel> tag for routing context like chat ID, sender name, or alert severity. Keys must be identifiers: letters, digits, and underscores only. Keys containing hyphens or other characters are silently dropped." [ref=e681]':
+                  - cell "meta" [ref=e682]:
+                    - code [ref=e683]: meta
+                  - cell "Record<string, string>" [ref=e684]:
+                    - code [ref=e685]: Record<string, string>
+                  - 'cell "Optional. Each entry becomes an attribute on the <channel> tag for routing context like chat ID, sender name, or alert severity. Keys must be identifiers: letters, digits, and underscores only. Keys containing hyphens or other characters are silently dropped." [ref=e686]':
+                    - text: Optional. Each entry becomes an attribute on the
+                    - code [ref=e687]: <channel>
+                    - text: "tag for routing context like chat ID, sender name, or alert severity. Keys must be identifiers: letters, digits, and underscores only. Keys containing hyphens or other characters are silently dropped."
+            - generic [ref=e688]:
+              - text: Your server pushes events by calling
+              - code [ref=e689]: mcp.notification()
+              - text: on the
+              - code [ref=e690]: Server
+              - text: "instance. This example pushes a CI failure alert with two meta keys:"
+            - generic [ref=e691]:
+              - generic [ref=e692]:
+                - button "Report incorrect code" [ref=e694] [cursor=pointer]:
+                  - img [ref=e695]
+                - button "Copy the contents from the code block" [ref=e698] [cursor=pointer]:
+                  - img [ref=e699]
+                - button "Ask AI" [ref=e703] [cursor=pointer]:
+                  - img [ref=e704]
+              - code [ref=e710]:
+                - generic [ref=e711]: "await mcp.notification({"
+                - generic [ref=e712]: "method: 'notifications/claude/channel',"
+                - generic [ref=e713]: "params: {"
+                - generic [ref=e714]: "content: 'build failed on main: https://ci.example.com/run/1234',"
+                - generic [ref=e715]: "meta: { severity: 'high', run_id: '1234' },"
+                - generic [ref=e716]: "},"
+                - generic [ref=e717]: "})"
+            - generic [ref=e718]:
+              - text: The event arrives in Claude’s context wrapped in a
+              - code [ref=e719]: <channel>
+              - text: tag. The
+              - code [ref=e720]: source
+              - text: "attribute is set automatically from your server’s configured name:"
+            - generic [ref=e721]:
+              - generic [ref=e722]:
+                - button "Report incorrect code" [ref=e724] [cursor=pointer]:
+                  - img [ref=e725]
+                - button "Copy the contents from the code block" [ref=e728] [cursor=pointer]:
+                  - img [ref=e729]
+                - button "Ask AI" [ref=e733] [cursor=pointer]:
+                  - img [ref=e734]
+              - code [ref=e740]:
+                - generic [ref=e741]: <channel source="your-channel" severity="high" run_id="1234">
+                - generic [ref=e742]: "build failed on main: https://ci.example.com/run/1234"
+                - generic [ref=e743]: </channel>
+            - generic [ref=e744]:
+              - text: Notifications are not acknowledged. The
+              - code [ref=e745]: await
+              - text: "on"
+              - code [ref=e746]: mcp.notification()
+              - text: resolves when the message is written to the transport, not when Claude has processed it. If the session hasn’t loaded your server as a channel, or the organization policy blocks it, events are dropped silently with no error returned to your server.
+            - generic [ref=e747]:
+              - text: If you need delivery confirmation, track event state in your server and expose a
+              - link "reply tool" [ref=e748] [cursor=pointer]:
+                - /url: "#expose-a-reply-tool"
+              - text: that Claude can call to report status back.
+            - generic [ref=e749]: Events queue into the session and are processed in order. If several notifications arrive while Claude is busy, they’re delivered together on the next turn and Claude handles them as a group. To process independent event streams concurrently, run separate sessions.
+            - heading "Navigate to header Expose a reply tool" [level=2] [ref=e750]:
+              - link "Navigate to header" [ref=e751] [cursor=pointer]:
+                - /url: "#expose-a-reply-tool"
+                - img [ref=e753]
+              - generic [ref=e755] [cursor=pointer]: Expose a reply tool
+            - generic [ref=e756]:
+              - text: If your channel is two-way, like a chat bridge rather than an alert forwarder, expose a standard
+              - link "MCP tool" [ref=e757] [cursor=pointer]:
+                - /url: https://modelcontextprotocol.io/docs/concepts/tools
+              - text: "that Claude can call to send messages back. Nothing about the tool registration is channel-specific. A reply tool has three components:"
+            - list [ref=e758]:
+              - listitem [ref=e759]:
+                - text: A
+                - code [ref=e760]: "tools: {}"
+                - text: entry in your
+                - code [ref=e761]: Server
+                - text: constructor capabilities so Claude Code discovers the tool
+              - listitem [ref=e762]: Tool handlers that define the tool’s schema and implement the send logic
+              - listitem [ref=e763]:
+                - text: An
+                - code [ref=e764]: instructions
+                - text: string in your
+                - code [ref=e765]: Server
+                - text: constructor that tells Claude when and how to call the tool
+            - generic [ref=e766]:
+              - text: To add these to the
+              - link "webhook receiver above" [ref=e767] [cursor=pointer]:
+                - /url: "#example-build-a-webhook-receiver"
+              - text: ":"
+            - list [ref=e768]:
+              - listitem [ref=e769]:
+                - generic [ref=e772]:
+                  - generic [ref=e773]: "1"
+                  - link "Navigate to header" [ref=e775] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e777]
+                - generic [ref=e779]:
+                  - paragraph [ref=e780]: Enable tool discovery
+                  - generic [ref=e781]:
+                    - generic [ref=e782]:
+                      - text: In your
+                      - code [ref=e783]: Server
+                      - text: constructor in
+                      - code [ref=e784]: webhook.ts
+                      - text: ", add"
+                      - code [ref=e785]: "tools: {}"
+                      - text: "to the capabilities so Claude Code knows your server offers tools:"
+                    - generic [ref=e786]:
+                      - generic [ref=e787]:
+                        - button "Report incorrect code" [ref=e789] [cursor=pointer]:
+                          - img [ref=e790]
+                        - button "Copy the contents from the code block" [ref=e793] [cursor=pointer]:
+                          - img [ref=e794]
+                        - button "Ask AI" [ref=e798] [cursor=pointer]:
+                          - img [ref=e799]
+                      - code [ref=e805]:
+                        - generic [ref=e806]: "capabilities: {"
+                        - generic [ref=e807]: "experimental: { 'claude/channel': {} },"
+                        - generic [ref=e808]: "tools: {}, // enables tool discovery"
+                        - generic [ref=e809]: "},"
+              - listitem [ref=e810]:
+                - generic [ref=e813]:
+                  - generic [ref=e814]: "2"
+                  - link "Navigate to header" [ref=e816] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e818]
+                - generic [ref=e820]:
+                  - paragraph [ref=e821]: Register the reply tool
+                  - generic [ref=e822]:
+                    - generic [ref=e823]:
+                      - text: Add the following to
+                      - code [ref=e824]: webhook.ts
+                      - text: . The
+                      - code [ref=e825]: import
+                      - text: goes at the top of the file with your other imports; the two handlers go between the
+                      - code [ref=e826]: Server
+                      - text: constructor and
+                      - code [ref=e827]: mcp.connect()
+                      - text: . This registers a
+                      - code [ref=e828]: reply
+                      - text: tool that Claude can call with a
+                      - code [ref=e829]: chat_id
+                      - text: and
+                      - code [ref=e830]: text
+                      - text: ":"
+                    - generic [ref=e831]:
+                      - generic [ref=e832]:
+                        - button "Report incorrect code" [ref=e834] [cursor=pointer]:
+                          - img [ref=e835]
+                        - button "Copy the contents from the code block" [ref=e838] [cursor=pointer]:
+                          - img [ref=e839]
+                        - button "Ask AI" [ref=e843] [cursor=pointer]:
+                          - img [ref=e844]
+                      - code [ref=e850]:
+                        - generic [ref=e851]: // Add this import at the top of webhook.ts
+                        - generic [ref=e852]: "import { ListToolsRequestSchema, CallToolRequestSchema } from '@modelcontextprotocol/sdk/types.js'"
+                        - generic [ref=e853]: // Claude queries this at startup to discover what tools your server offers
+                        - generic [ref=e854]: "mcp.setRequestHandler(ListToolsRequestSchema, async () => ({"
+                        - generic [ref=e855]: "tools: [{"
+                        - generic [ref=e856]: "name: 'reply',"
+                        - generic [ref=e857]: "description: 'Send a message back over this channel',"
+                        - generic [ref=e858]: // inputSchema tells Claude what arguments to pass
+                        - generic [ref=e859]: "inputSchema: {"
+                        - generic [ref=e860]: "type: 'object',"
+                        - generic [ref=e861]: "properties: {"
+                        - generic [ref=e862]: "chat_id: { type: 'string', description: 'The conversation to reply in' },"
+                        - generic [ref=e863]: "text: { type: 'string', description: 'The message to send' },"
+                        - generic [ref=e864]: "},"
+                        - generic [ref=e865]: "required: ['chat_id', 'text'],"
+                        - generic [ref=e866]: "},"
+                        - generic [ref=e867]: "}],"
+                        - generic [ref=e868]: "}))"
+                        - generic [ref=e869]: // Claude calls this when it wants to invoke a tool
+                        - generic [ref=e870]: "mcp.setRequestHandler(CallToolRequestSchema, async req => {"
+                        - generic [ref=e871]: "if (req.params.name === 'reply') {"
+                        - generic [ref=e872]: "const { chat_id, text } = req.params.arguments as { chat_id: string; text: string }"
+                        - generic [ref=e873]: "// send() is your outbound: POST to your chat platform, or for local"
+                        - generic [ref=e874]: // testing the SSE broadcast shown in the full example below.
+                        - generic [ref=e875]: "send(`Reply to ${chat_id}: ${text}`)"
+                        - generic [ref=e876]: "return { content: [{ type: 'text', text: 'sent' }] }"
+                        - generic [ref=e877]: "}"
+                        - generic [ref=e878]: "throw new Error(`unknown tool: ${req.params.name}`)"
+                        - generic [ref=e879]: "})"
+              - listitem [ref=e880]:
+                - generic [ref=e883]:
+                  - generic [ref=e884]: "3"
+                  - link "Navigate to header" [ref=e886] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e888]
+                - generic [ref=e890]:
+                  - paragraph [ref=e891]: Update the instructions
+                  - generic [ref=e892]:
+                    - generic [ref=e893]:
+                      - text: Update the
+                      - code [ref=e894]: instructions
+                      - text: string in your
+                      - code [ref=e895]: Server
+                      - text: constructor so Claude knows to route replies back through the tool. This example tells Claude to pass
+                      - code [ref=e896]: chat_id
+                      - text: "from the inbound tag:"
+                    - generic [ref=e897]:
+                      - generic [ref=e898]:
+                        - button "Report incorrect code" [ref=e900] [cursor=pointer]:
+                          - img [ref=e901]
+                        - button "Copy the contents from the code block" [ref=e904] [cursor=pointer]:
+                          - img [ref=e905]
+                        - button "Ask AI" [ref=e909] [cursor=pointer]:
+                          - img [ref=e910]
+                      - code [ref=e916]:
+                        - generic [ref=e917]: "instructions: 'Messages arrive as <channel source=\"webhook\" chat_id=\"...\">. Reply with the reply tool, passing the chat_id from the tag.'"
+            - generic [ref=e918]:
+              - text: Here’s the complete
+              - code [ref=e919]: webhook.ts
+              - text: with two-way support. Outbound replies stream over
+              - code [ref=e920]: GET /events
+              - text: using
+              - link "Server-Sent Events" [ref=e921] [cursor=pointer]:
+                - /url: https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events
+              - text: (SSE), so
+              - code [ref=e922]: curl -N localhost:8788/events
+              - text: can watch them live; inbound chat arrives on
+              - code [ref=e923]: POST /
+              - text: ":"
+            - generic [ref=e924]:
+              - generic [ref=e925]:
+                - generic "Full webhook.ts with reply tool" [ref=e927]
+                - generic [ref=e928]:
+                  - button "Report incorrect code" [ref=e930] [cursor=pointer]:
+                    - img [ref=e931]
+                  - button "Copy the contents from the code block" [ref=e934] [cursor=pointer]:
+                    - img [ref=e935]
+                  - button "Ask AI" [ref=e939] [cursor=pointer]:
+                    - img [ref=e940]
+              - code [ref=e946]:
+                - generic [ref=e947]: "#!/usr/bin/env bun"
+                - generic [ref=e948]: "import { Server } from '@modelcontextprotocol/sdk/server/index.js'"
+                - generic [ref=e949]: "import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'"
+                - generic [ref=e950]: "import { ListToolsRequestSchema, CallToolRequestSchema } from '@modelcontextprotocol/sdk/types.js'"
+                - generic [ref=e951]: "// --- Outbound: write to any curl -N listeners on /events --------------------"
+                - generic [ref=e952]: // A real bridge would POST to your chat platform instead.
+                - generic [ref=e953]: "const listeners = new Set<(chunk: string) => void>()"
+                - generic [ref=e954]: "function send(text: string) {"
+                - generic [ref=e955]: "const chunk = text.split('\\n').map(l => `data: ${l}\\n`).join('') + '\\n'"
+                - generic [ref=e956]: for (const emit of listeners) emit(chunk)
+                - generic [ref=e957]: "}"
+                - generic [ref=e958]: const mcp = new Server(
+                - generic [ref=e959]: "{ name: 'webhook', version: '0.0.1' },"
+                - generic [ref=e960]: "{"
+                - generic [ref=e961]: "capabilities: {"
+                - generic [ref=e962]: "experimental: { 'claude/channel': {} },"
+                - generic [ref=e963]: "tools: {},"
+                - generic [ref=e964]: "},"
+                - generic [ref=e965]: "instructions: 'Messages arrive as <channel source=\"webhook\" chat_id=\"...\">. Reply with the reply tool, passing the chat_id from the tag.',"
+                - generic [ref=e966]: "},"
+                - generic [ref=e967]: )
+                - generic [ref=e968]: "mcp.setRequestHandler(ListToolsRequestSchema, async () => ({"
+                - generic [ref=e969]: "tools: [{"
+                - generic [ref=e970]: "name: 'reply',"
+                - generic [ref=e971]: "description: 'Send a message back over this channel',"
+                - generic [ref=e972]: "inputSchema: {"
+                - generic [ref=e973]: "type: 'object',"
+                - generic [ref=e974]: "properties: {"
+                - generic [ref=e975]: "chat_id: { type: 'string', description: 'The conversation to reply in' },"
+                - generic [ref=e976]: "text: { type: 'string', description: 'The message to send' },"
+                - generic [ref=e977]: "},"
+                - generic [ref=e978]: "required: ['chat_id', 'text'],"
+                - generic [ref=e979]: "},"
+                - generic [ref=e980]: "}],"
+                - generic [ref=e981]: "}))"
+                - generic [ref=e982]: "mcp.setRequestHandler(CallToolRequestSchema, async req => {"
+                - generic [ref=e983]: "if (req.params.name === 'reply') {"
+                - generic [ref=e984]: "const { chat_id, text } = req.params.arguments as { chat_id: string; text: string }"
+                - generic [ref=e985]: "send(`Reply to ${chat_id}: ${text}`)"
+                - generic [ref=e986]: "return { content: [{ type: 'text', text: 'sent' }] }"
+                - generic [ref=e987]: "}"
+                - generic [ref=e988]: "throw new Error(`unknown tool: ${req.params.name}`)"
+                - generic [ref=e989]: "})"
+                - generic [ref=e990]: await mcp.connect(new StdioServerTransport())
+                - generic [ref=e991]: let nextId = 1
+                - generic [ref=e992]: "Bun.serve({"
+                - generic [ref=e993]: "port: 8788,"
+                - generic [ref=e994]: "hostname: '127.0.0.1',"
+                - generic [ref=e995]: "idleTimeout: 0, // don't close idle SSE streams"
+                - generic [ref=e996]: "async fetch(req) {"
+                - generic [ref=e997]: const url = new URL(req.url)
+                - generic [ref=e998]: "// GET /events: SSE stream so curl -N can watch Claude's replies live"
+                - generic [ref=e999]: "if (req.method === 'GET' && url.pathname === '/events') {"
+                - generic [ref=e1000]: "const stream = new ReadableStream({"
+                - generic [ref=e1001]: "start(ctrl) {"
+                - generic [ref=e1002]: "ctrl.enqueue(': connected\\n\\n') // so curl shows something immediately"
+                - generic [ref=e1003]: "const emit = (chunk: string) => ctrl.enqueue(chunk)"
+                - generic [ref=e1004]: listeners.add(emit)
+                - generic [ref=e1005]: req.signal.addEventListener('abort', () => listeners.delete(emit))
+                - generic [ref=e1006]: "},"
+                - generic [ref=e1007]: "})"
+                - generic [ref=e1008]: "return new Response(stream, {"
+                - generic [ref=e1009]: "headers: { 'Content-Type': 'text/event-stream', 'Cache-Control': 'no-cache' },"
+                - generic [ref=e1010]: "})"
+                - generic [ref=e1011]: "}"
+                - generic [ref=e1012]: "// POST: forward to Claude as a channel event"
+                - generic [ref=e1013]: const body = await req.text()
+                - generic [ref=e1014]: const chat_id = String(nextId++)
+                - generic [ref=e1015]: "await mcp.notification({"
+                - generic [ref=e1016]: "method: 'notifications/claude/channel',"
+                - generic [ref=e1017]: "params: {"
+                - generic [ref=e1018]: "content: body,"
+                - generic [ref=e1019]: "meta: { chat_id, path: url.pathname, method: req.method },"
+                - generic [ref=e1020]: "},"
+                - generic [ref=e1021]: "})"
+                - generic [ref=e1022]: return new Response('ok')
+                - generic [ref=e1023]: "},"
+                - generic [ref=e1024]: "})"
+              - button "See all 86 lines" [ref=e1026] [cursor=pointer]:
+                - img [ref=e1027]
+                - text: See all 86 lines
+            - generic [ref=e1031]:
+              - text: The
+              - link "fakechat server" [ref=e1032] [cursor=pointer]:
+                - /url: https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/fakechat
+              - text: shows a more complete example with file attachments and message editing.
+            - heading "Navigate to header Gate inbound messages" [level=2] [ref=e1033]:
+              - link "Navigate to header" [ref=e1034] [cursor=pointer]:
+                - /url: "#gate-inbound-messages"
+                - img [ref=e1036]
+              - generic [ref=e1038] [cursor=pointer]: Gate inbound messages
+            - generic [ref=e1039]: An ungated channel is a prompt injection vector. Anyone who can reach your endpoint can put text in front of Claude. A channel listening to a chat platform or a public endpoint needs a real sender check before it emits anything.
+            - generic [ref=e1040]:
+              - text: Check the sender against an allowlist before calling
+              - code [ref=e1041]: mcp.notification()
+              - text: ". This example drops any message from a sender not in the set:"
+            - generic [ref=e1042]:
+              - generic [ref=e1043]:
+                - button "Report incorrect code" [ref=e1045] [cursor=pointer]:
+                  - img [ref=e1046]
+                - button "Copy the contents from the code block" [ref=e1049] [cursor=pointer]:
+                  - img [ref=e1050]
+                - button "Ask AI" [ref=e1054] [cursor=pointer]:
+                  - img [ref=e1055]
+              - code [ref=e1061]:
+                - generic [ref=e1062]: const allowed = new Set(loadAllowlist()) // from your access.json or equivalent
+                - generic [ref=e1063]: "// inside your message handler, before emitting:"
+                - generic [ref=e1064]: "if (!allowed.has(message.from.id)) { // sender, not room"
+                - generic [ref=e1065]: return // drop silently
+                - generic [ref=e1066]: "}"
+                - generic [ref=e1067]: "await mcp.notification({ ... })"
+            - generic [ref=e1068]:
+              - text: "Gate on the sender’s identity, not the chat or room identity:"
+              - code [ref=e1069]: message.from.id
+              - text: in the example, not
+              - code [ref=e1070]: message.chat.id
+              - text: . In group chats, these differ, and gating on the room would let anyone in an allowlisted group inject messages into the session.
+            - generic [ref=e1071]:
+              - text: The
+              - link "Telegram" [ref=e1072] [cursor=pointer]:
+                - /url: https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/telegram
+              - text: and
+              - link "Discord" [ref=e1073] [cursor=pointer]:
+                - /url: https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/discord
+              - text: "channels gate on a sender allowlist the same way. They bootstrap the list by pairing: the user DMs the bot, the bot replies with a pairing code, the user approves it in their Claude Code session, and their platform ID is added. See either implementation for the full pairing flow. The"
+              - link "iMessage" [ref=e1074] [cursor=pointer]:
+                - /url: https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/imessage
+              - text: "channel takes a different approach: it detects the user’s own addresses from the Messages database at startup and lets them through automatically, with other senders added by handle."
+            - heading "Navigate to header Relay permission prompts" [level=2] [ref=e1075]:
+              - link "Navigate to header" [ref=e1076] [cursor=pointer]:
+                - /url: "#relay-permission-prompts"
+                - img [ref=e1078]
+              - generic [ref=e1080] [cursor=pointer]: Relay permission prompts
+            - generic [ref=e1081]:
+              - img "Note" [ref=e1083]
+              - generic [ref=e1086]:
+                - text: Permission relay requires Claude Code v2.1.81 or later. Earlier versions ignore the
+                - code [ref=e1087]: claude/channel/permission
+                - text: capability.
+            - generic [ref=e1088]: "When Claude calls a tool that needs approval, the local terminal dialog opens and the session waits. A two-way channel can opt in to receive the same prompt in parallel and relay it to you on another device. Both stay live: you can answer in the terminal or on your phone, and Claude Code applies whichever answer arrives first and closes the other."
+            - generic [ref=e1089]:
+              - text: Relay covers tool-use approvals like
+              - code [ref=e1090]: Bash
+              - text: ","
+              - code [ref=e1091]: Write
+              - text: ", and"
+              - code [ref=e1092]: Edit
+              - text: . Project trust and MCP server consent dialogs don’t relay; those only appear in the local terminal.
+            - heading "Navigate to header How relay works" [level=3] [ref=e1093]:
+              - link "Navigate to header" [ref=e1094] [cursor=pointer]:
+                - /url: "#how-relay-works"
+                - img [ref=e1096]
+              - generic [ref=e1098] [cursor=pointer]: How relay works
+            - generic [ref=e1099]: "When a permission prompt opens, the relay loop has four steps:"
+            - list [ref=e1100]:
+              - listitem [ref=e1101]: Claude Code generates a short request ID and notifies your server
+              - listitem [ref=e1102]: Your server forwards the prompt and ID to your chat app
+              - listitem [ref=e1103]: The remote user replies with a yes or no and that ID
+              - listitem [ref=e1104]: Your inbound handler parses the reply into a verdict, and Claude Code applies it only if the ID matches an open request
+            - generic [ref=e1105]: The local terminal dialog stays open through all of this. If someone at the terminal answers before the remote verdict arrives, that answer is applied instead and the pending remote request is dropped.
+            - 'img "Sequence diagram: Claude Code sends a permission_request notification to the channel server, the server formats and sends the prompt to the chat app, the human replies with a verdict, and the server parses that reply into a permission notification back to Claude Code" [ref=e1109]'
+            - heading "Navigate to header Permission request fields" [level=3] [ref=e1110]:
+              - link "Navigate to header" [ref=e1111] [cursor=pointer]:
+                - /url: "#permission-request-fields"
+                - img [ref=e1113]
+              - generic [ref=e1115] [cursor=pointer]: Permission request fields
+            - generic [ref=e1116]:
+              - text: The outbound notification from Claude Code is
+              - code [ref=e1117]: notifications/claude/channel/permission_request
+              - text: . Like the
+              - link "channel notification" [ref=e1118] [cursor=pointer]:
+                - /url: "#notification-format"
+              - text: ", the transport is standard MCP but the method and schema are Claude Code extensions. The"
+              - code [ref=e1119]: params
+              - text: "object has four string fields your server formats into the outgoing prompt:"
+            - table [ref=e1122]:
+              - rowgroup [ref=e1123]:
+                - row "Field Description" [ref=e1124]:
+                  - columnheader "Field" [ref=e1125]
+                  - columnheader "Description" [ref=e1126]
+              - rowgroup [ref=e1127]:
+                - row "request_id Five lowercase letters drawn from a-z without l, so it never reads as a 1 or I when typed on a phone. Include it in your outgoing prompt so it can be echoed in the reply. Claude Code only accepts a verdict that carries an ID it issued. The local terminal dialog doesn’t display this ID, so your outbound handler is the only way to learn it." [ref=e1128]:
+                  - cell "request_id" [ref=e1129]:
+                    - code [ref=e1130]: request_id
+                  - cell "Five lowercase letters drawn from a-z without l, so it never reads as a 1 or I when typed on a phone. Include it in your outgoing prompt so it can be echoed in the reply. Claude Code only accepts a verdict that carries an ID it issued. The local terminal dialog doesn’t display this ID, so your outbound handler is the only way to learn it." [ref=e1131]:
+                    - text: Five lowercase letters drawn from
+                    - code [ref=e1132]: a
+                    - text: "-"
+                    - code [ref=e1133]: z
+                    - text: without
+                    - code [ref=e1134]: l
+                    - text: ", so it never reads as a"
+                    - code [ref=e1135]: "1"
+                    - text: or
+                    - code [ref=e1136]: I
+                    - text: when typed on a phone. Include it in your outgoing prompt so it can be echoed in the reply. Claude Code only accepts a verdict that carries an ID it issued. The local terminal dialog doesn’t display this ID, so your outbound handler is the only way to learn it.
+                - row "tool_name Name of the tool Claude wants to use, for example Bash or Write." [ref=e1137]:
+                  - cell "tool_name" [ref=e1138]:
+                    - code [ref=e1139]: tool_name
+                  - cell "Name of the tool Claude wants to use, for example Bash or Write." [ref=e1140]:
+                    - text: Name of the tool Claude wants to use, for example
+                    - code [ref=e1141]: Bash
+                    - text: or
+                    - code [ref=e1142]: Write
+                    - text: .
+                - row "description Human-readable summary of what this specific tool call does, the same text the local terminal dialog shows. For a Bash call this is Claude’s description of the command, or the command itself if none was given." [ref=e1143]:
+                  - cell "description" [ref=e1144]:
+                    - code [ref=e1145]: description
+                  - cell "Human-readable summary of what this specific tool call does, the same text the local terminal dialog shows. For a Bash call this is Claude’s description of the command, or the command itself if none was given." [ref=e1146]
+                - row "input_preview The tool’s arguments as a JSON string, truncated to 200 characters. For Bash this is the command; for Write it’s the file path and a prefix of the content. Omit it from your prompt if you only have room for a one-line message. Your server decides what to show." [ref=e1147]:
+                  - cell "input_preview" [ref=e1148]:
+                    - code [ref=e1149]: input_preview
+                  - cell "The tool’s arguments as a JSON string, truncated to 200 characters. For Bash this is the command; for Write it’s the file path and a prefix of the content. Omit it from your prompt if you only have room for a one-line message. Your server decides what to show." [ref=e1150]
+            - generic [ref=e1151]:
+              - text: The verdict your server sends back is
+              - code [ref=e1152]: notifications/claude/channel/permission
+              - text: "with two fields:"
+              - code [ref=e1153]: request_id
+              - text: echoing the ID above, and
+              - code [ref=e1154]: behavior
+              - text: set to
+              - code [ref=e1155]: "'allow'"
+              - text: or
+              - code [ref=e1156]: "'deny'"
+              - text: . Allow lets the tool call proceed; deny rejects it, the same as answering No in the local dialog. Neither verdict affects future calls.
+            - heading "Navigate to header Add relay to a chat bridge" [level=3] [ref=e1157]:
+              - link "Navigate to header" [ref=e1158] [cursor=pointer]:
+                - /url: "#add-relay-to-a-chat-bridge"
+                - img [ref=e1160]
+              - generic [ref=e1162] [cursor=pointer]: Add relay to a chat bridge
+            - generic [ref=e1163]: "Adding permission relay to a two-way channel takes three components:"
+            - list [ref=e1164]:
+              - listitem [ref=e1165]:
+                - text: A
+                - code [ref=e1166]: "claude/channel/permission: {}"
+                - text: entry under
+                - code [ref=e1167]: experimental
+                - text: capabilities in your
+                - code [ref=e1168]: Server
+                - text: constructor so Claude Code knows to forward prompts
+              - listitem [ref=e1169]:
+                - text: A notification handler for
+                - code [ref=e1170]: notifications/claude/channel/permission_request
+                - text: that formats the prompt and sends it out through your platform API
+              - listitem [ref=e1171]:
+                - text: A check in your inbound message handler that recognizes
+                - code [ref=e1172]: yes <id>
+                - text: or
+                - code [ref=e1173]: no <id>
+                - text: and emits a
+                - code [ref=e1174]: notifications/claude/channel/permission
+                - text: verdict instead of forwarding the text to Claude
+            - generic [ref=e1175]:
+              - text: Only declare the capability if your channel
+              - link "authenticates the sender" [ref=e1176] [cursor=pointer]:
+                - /url: "#gate-inbound-messages"
+              - text: ", because anyone who can reply through your channel can approve or deny tool use in your session."
+            - generic [ref=e1177]:
+              - text: To add these to a two-way chat bridge like the one assembled in
+              - link "Expose a reply tool" [ref=e1178] [cursor=pointer]:
+                - /url: "#expose-a-reply-tool"
+              - text: ":"
+            - list [ref=e1179]:
+              - listitem [ref=e1180]:
+                - generic [ref=e1183]:
+                  - generic [ref=e1184]: "1"
+                  - link "Navigate to header" [ref=e1186] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e1188]
+                - generic [ref=e1190]:
+                  - paragraph [ref=e1191]: Declare the permission capability
+                  - generic [ref=e1192]:
+                    - generic [ref=e1193]:
+                      - text: In your
+                      - code [ref=e1194]: Server
+                      - text: constructor, add
+                      - code [ref=e1195]: "claude/channel/permission: {}"
+                      - text: alongside
+                      - code [ref=e1196]: claude/channel
+                      - text: under
+                      - code [ref=e1197]: experimental
+                      - text: ":"
+                    - generic [ref=e1198]:
+                      - generic [ref=e1199]:
+                        - button "Report incorrect code" [ref=e1201] [cursor=pointer]:
+                          - img [ref=e1202]
+                        - button "Copy the contents from the code block" [ref=e1205] [cursor=pointer]:
+                          - img [ref=e1206]
+                        - button "Ask AI" [ref=e1210] [cursor=pointer]:
+                          - img [ref=e1211]
+                      - code [ref=e1217]:
+                        - generic [ref=e1218]: "capabilities: {"
+                        - generic [ref=e1219]: "experimental: {"
+                        - generic [ref=e1220]: "'claude/channel': {},"
+                        - generic [ref=e1221]: "'claude/channel/permission': {}, // opt in to permission relay"
+                        - generic [ref=e1222]: "},"
+                        - generic [ref=e1223]: "tools: {},"
+                        - generic [ref=e1224]: "},"
+              - listitem [ref=e1225]:
+                - generic [ref=e1228]:
+                  - generic [ref=e1229]: "2"
+                  - link "Navigate to header" [ref=e1231] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e1233]
+                - generic [ref=e1235]:
+                  - paragraph [ref=e1236]: Handle the incoming request
+                  - generic [ref=e1237]:
+                    - generic [ref=e1238]:
+                      - text: Register a notification handler between your
+                      - code [ref=e1239]: Server
+                      - text: constructor and
+                      - code [ref=e1240]: mcp.connect()
+                      - text: . Claude Code calls it with the
+                      - link "four request fields" [ref=e1241] [cursor=pointer]:
+                        - /url: "#permission-request-fields"
+                      - text: "when a permission dialog opens. Your handler formats the prompt for your platform and includes instructions for replying with the ID:"
+                    - generic [ref=e1242]:
+                      - generic [ref=e1243]:
+                        - button "Report incorrect code" [ref=e1245] [cursor=pointer]:
+                          - img [ref=e1246]
+                        - button "Copy the contents from the code block" [ref=e1249] [cursor=pointer]:
+                          - img [ref=e1250]
+                        - button "Ask AI" [ref=e1254] [cursor=pointer]:
+                          - img [ref=e1255]
+                      - code [ref=e1261]:
+                        - generic [ref=e1262]: "import { z } from 'zod'"
+                        - generic [ref=e1263]: // setNotificationHandler routes by z.literal on the method field,
+                        - generic [ref=e1264]: // so this schema is both the validator and the dispatch key
+                        - generic [ref=e1265]: "const PermissionRequestSchema = z.object({"
+                        - generic [ref=e1266]: "method: z.literal('notifications/claude/channel/permission_request'),"
+                        - generic [ref=e1267]: "params: z.object({"
+                        - generic [ref=e1268]: "request_id: z.string(), // five lowercase letters, include verbatim in your prompt"
+                        - generic [ref=e1269]: "tool_name: z.string(), // e.g. \"Bash\", \"Write\""
+                        - generic [ref=e1270]: "description: z.string(), // human-readable summary of this call"
+                        - generic [ref=e1271]: "input_preview: z.string(), // tool args as JSON, truncated to ~200 chars"
+                        - generic [ref=e1272]: "}),"
+                        - generic [ref=e1273]: "})"
+                        - generic [ref=e1274]: "mcp.setNotificationHandler(PermissionRequestSchema, async ({ params }) => {"
+                        - generic [ref=e1275]: "// send() is your outbound: POST to your chat platform, or for local"
+                        - generic [ref=e1276]: // testing the SSE broadcast shown in the full example below.
+                        - generic [ref=e1277]: send(
+                        - generic [ref=e1278]: "`Claude wants to run ${params.tool_name}: ${params.description}\\n\\n` +"
+                        - generic [ref=e1279]: // the ID in the instruction is what your inbound handler parses in Step 3
+                        - generic [ref=e1280]: "`Reply \"yes ${params.request_id}\" or \"no ${params.request_id}\"`,"
+                        - generic [ref=e1281]: )
+                        - generic [ref=e1282]: "})"
+              - listitem [ref=e1283]:
+                - generic [ref=e1286]:
+                  - generic [ref=e1287]: "3"
+                  - link "Navigate to header" [ref=e1289] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e1291]
+                - generic [ref=e1293]:
+                  - paragraph [ref=e1294]: Intercept the verdict in your inbound handler
+                  - generic [ref=e1295]:
+                    - generic [ref=e1296]:
+                      - text: "Your inbound handler is the loop or callback that receives messages from your platform: the same place you"
+                      - link "gate on sender" [ref=e1297] [cursor=pointer]:
+                        - /url: "#gate-inbound-messages"
+                      - text: and emit
+                      - code [ref=e1298]: notifications/claude/channel
+                      - text: to forward chat to Claude. Add a check before the chat-forwarding call that recognizes the verdict format and emits the permission notification instead.
+                    - generic [ref=e1299]:
+                      - text: "The regex matches the ID format Claude Code generates: five letters, never"
+                      - code [ref=e1300]: l
+                      - text: . The
+                      - code [ref=e1301]: /i
+                      - text: flag tolerates phone autocorrect capitalizing the reply; lowercase the captured ID before sending it back.
+                    - generic [ref=e1302]:
+                      - generic [ref=e1303]:
+                        - button "Report incorrect code" [ref=e1305] [cursor=pointer]:
+                          - img [ref=e1306]
+                        - button "Copy the contents from the code block" [ref=e1309] [cursor=pointer]:
+                          - img [ref=e1310]
+                        - button "Ask AI" [ref=e1314] [cursor=pointer]:
+                          - img [ref=e1315]
+                      - code [ref=e1321]:
+                        - generic [ref=e1322]: // matches "y abcde", "yes abcde", "n abcde", "no abcde"
+                        - generic [ref=e1323]: // [a-km-z] is the ID alphabet Claude Code uses (lowercase, skips 'l')
+                        - generic [ref=e1324]: // /i tolerates phone autocorrect; lowercase the capture before sending
+                        - generic [ref=e1325]: "const PERMISSION_REPLY_RE = /^\\s*(y|yes|n|no)\\s+([a-km-z]{5})\\s*$/i"
+                        - generic [ref=e1326]: "async function onInbound(message: PlatformMessage) {"
+                        - generic [ref=e1327]: if (!allowed.has(message.from.id)) return // gate on sender first
+                        - generic [ref=e1328]: const m = PERMISSION_REPLY_RE.exec(message.text)
+                        - generic [ref=e1329]: "if (m) {"
+                        - generic [ref=e1330]: // m[1] is the verdict word, m[2] is the request ID
+                        - generic [ref=e1331]: // emit the verdict notification back to Claude Code instead of chat
+                        - generic [ref=e1332]: "await mcp.notification({"
+                        - generic [ref=e1333]: "method: 'notifications/claude/channel/permission',"
+                        - generic [ref=e1334]: "params: {"
+                        - generic [ref=e1335]: "request_id: m[2].toLowerCase(), // normalize in case of autocorrect caps"
+                        - generic [ref=e1336]: "behavior: m[1].toLowerCase().startsWith('y') ? 'allow' : 'deny',"
+                        - generic [ref=e1337]: "},"
+                        - generic [ref=e1338]: "})"
+                        - generic [ref=e1339]: return // handled as verdict, don't also forward as chat
+                        - generic [ref=e1340]: "}"
+                        - generic [ref=e1341]: "// didn't match verdict format: fall through to the normal chat path"
+                        - generic [ref=e1342]: "await mcp.notification({"
+                        - generic [ref=e1343]: "method: 'notifications/claude/channel',"
+                        - generic [ref=e1344]: "params: { content: message.text, meta: { chat_id: String(message.chat.id) } },"
+                        - generic [ref=e1345]: "})"
+                        - generic [ref=e1346]: "}"
+            - generic [ref=e1347]: "Claude Code also keeps the local terminal dialog open, so you can answer in either place, and the first answer to arrive is applied. A remote reply that doesn’t exactly match the expected format fails in one of two ways, and in both cases the dialog stays open:"
+            - list [ref=e1348]:
+              - listitem [ref=e1349]:
+                - strong [ref=e1350]: Different format
+                - text: ": your inbound handler’s regex fails to match, so text like"
+                - code [ref=e1351]: approve it
+                - text: or
+                - code [ref=e1352]: "yes"
+                - text: without an ID falls through as a normal message to Claude.
+              - listitem [ref=e1353]:
+                - strong [ref=e1354]: Right format, wrong ID
+                - text: ": your server emits a verdict, but Claude Code finds no open request with that ID and drops it silently."
+            - heading "Navigate to header Full example" [level=3] [ref=e1355]:
+              - link "Navigate to header" [ref=e1356] [cursor=pointer]:
+                - /url: "#full-example"
+                - img [ref=e1358]
+              - generic [ref=e1360] [cursor=pointer]: Full example
+            - generic [ref=e1361]:
+              - text: The assembled
+              - code [ref=e1362]: webhook.ts
+              - text: "below combines all three extensions from this page: the reply tool, sender gating, and permission relay. If you’re starting here, you’ll also need the"
+              - link "project setup and .mcp.json entry" [ref=e1363] [cursor=pointer]:
+                - /url: "#example-build-a-webhook-receiver"
+                - text: project setup and
+                - code [ref=e1364]: .mcp.json
+                - text: entry
+              - text: from the initial walkthrough.
+            - generic [ref=e1365]: "To make both directions testable from curl, the HTTP listener serves two paths:"
+            - list [ref=e1366]:
+              - listitem [ref=e1367]:
+                - strong [ref=e1368]:
+                  - code [ref=e1369]: GET /events
+                - text: ": holds an SSE stream open and pushes each outbound message as a"
+                - code [ref=e1370]: "data:"
+                - text: line, so
+                - code [ref=e1371]: curl -N
+                - text: can watch Claude’s replies and permission prompts arrive live.
+              - listitem [ref=e1372]:
+                - strong [ref=e1373]:
+                  - code [ref=e1374]: POST /
+                - text: ": the inbound side, the same handler as earlier, now with the verdict-format check inserted before the chat-forward branch."
+            - generic [ref=e1375]:
+              - generic [ref=e1376]:
+                - generic "Full webhook.ts with permission relay" [ref=e1378]
+                - generic [ref=e1379]:
+                  - button "Report incorrect code" [ref=e1381] [cursor=pointer]:
+                    - img [ref=e1382]
+                  - button "Copy the contents from the code block" [ref=e1385] [cursor=pointer]:
+                    - img [ref=e1386]
+                  - button "Ask AI" [ref=e1390] [cursor=pointer]:
+                    - img [ref=e1391]
+              - code [ref=e1397]:
+                - generic [ref=e1398]: "#!/usr/bin/env bun"
+                - generic [ref=e1399]: "import { Server } from '@modelcontextprotocol/sdk/server/index.js'"
+                - generic [ref=e1400]: "import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'"
+                - generic [ref=e1401]: "import { ListToolsRequestSchema, CallToolRequestSchema } from '@modelcontextprotocol/sdk/types.js'"
+                - generic [ref=e1402]: "import { z } from 'zod'"
+                - generic [ref=e1403]: "// --- Outbound: write to any curl -N listeners on /events --------------------"
+                - generic [ref=e1404]: // A real bridge would POST to your chat platform instead.
+                - generic [ref=e1405]: "const listeners = new Set<(chunk: string) => void>()"
+                - generic [ref=e1406]: "function send(text: string) {"
+                - generic [ref=e1407]: "const chunk = text.split('\\n').map(l => `data: ${l}\\n`).join('') + '\\n'"
+                - generic [ref=e1408]: for (const emit of listeners) emit(chunk)
+                - generic [ref=e1409]: "}"
+                - generic [ref=e1410]: // Sender allowlist. For the local walkthrough we trust the single X-Sender
+                - generic [ref=e1411]: // header value "dev"; a real bridge would check the platform's user ID.
+                - generic [ref=e1412]: const allowed = new Set(['dev'])
+                - generic [ref=e1413]: const mcp = new Server(
+                - generic [ref=e1414]: "{ name: 'webhook', version: '0.0.1' },"
+                - generic [ref=e1415]: "{"
+                - generic [ref=e1416]: "capabilities: {"
+                - generic [ref=e1417]: "experimental: {"
+                - generic [ref=e1418]: "'claude/channel': {},"
+                - generic [ref=e1419]: "'claude/channel/permission': {}, // opt in to permission relay"
+                - generic [ref=e1420]: "},"
+                - generic [ref=e1421]: "tools: {},"
+                - generic [ref=e1422]: "},"
+                - generic [ref=e1423]: "instructions:"
+                - generic [ref=e1424]: "'Messages arrive as <channel source=\"webhook\" chat_id=\"...\">. ' +"
+                - generic [ref=e1425]: "'Reply with the reply tool, passing the chat_id from the tag.',"
+                - generic [ref=e1426]: "},"
+                - generic [ref=e1427]: )
+                - generic [ref=e1428]: "// --- reply tool: Claude calls this to send a message back -------------------"
+                - generic [ref=e1429]: "mcp.setRequestHandler(ListToolsRequestSchema, async () => ({"
+                - generic [ref=e1430]: "tools: [{"
+                - generic [ref=e1431]: "name: 'reply',"
+                - generic [ref=e1432]: "description: 'Send a message back over this channel',"
+                - generic [ref=e1433]: "inputSchema: {"
+                - generic [ref=e1434]: "type: 'object',"
+                - generic [ref=e1435]: "properties: {"
+                - generic [ref=e1436]: "chat_id: { type: 'string', description: 'The conversation to reply in' },"
+                - generic [ref=e1437]: "text: { type: 'string', description: 'The message to send' },"
+                - generic [ref=e1438]: "},"
+                - generic [ref=e1439]: "required: ['chat_id', 'text'],"
+                - generic [ref=e1440]: "},"
+                - generic [ref=e1441]: "}],"
+                - generic [ref=e1442]: "}))"
+                - generic [ref=e1443]: "mcp.setRequestHandler(CallToolRequestSchema, async req => {"
+                - generic [ref=e1444]: "if (req.params.name === 'reply') {"
+                - generic [ref=e1445]: "const { chat_id, text } = req.params.arguments as { chat_id: string; text: string }"
+                - generic [ref=e1446]: "send(`Reply to ${chat_id}: ${text}`)"
+                - generic [ref=e1447]: "return { content: [{ type: 'text', text: 'sent' }] }"
+                - generic [ref=e1448]: "}"
+                - generic [ref=e1449]: "throw new Error(`unknown tool: ${req.params.name}`)"
+                - generic [ref=e1450]: "})"
+                - generic [ref=e1451]: "// --- permission relay: Claude Code (not Claude) calls this when a dialog opens"
+                - generic [ref=e1452]: "const PermissionRequestSchema = z.object({"
+                - generic [ref=e1453]: "method: z.literal('notifications/claude/channel/permission_request'),"
+                - generic [ref=e1454]: "params: z.object({"
+                - generic [ref=e1455]: "request_id: z.string(),"
+                - generic [ref=e1456]: "tool_name: z.string(),"
+                - generic [ref=e1457]: "description: z.string(),"
+                - generic [ref=e1458]: "input_preview: z.string(),"
+                - generic [ref=e1459]: "}),"
+                - generic [ref=e1460]: "})"
+                - generic [ref=e1461]: "mcp.setNotificationHandler(PermissionRequestSchema, async ({ params }) => {"
+                - generic [ref=e1462]: send(
+                - generic [ref=e1463]: "`Claude wants to run ${params.tool_name}: ${params.description}\\n\\n` +"
+                - generic [ref=e1464]: "`Reply \"yes ${params.request_id}\" or \"no ${params.request_id}\"`,"
+                - generic [ref=e1465]: )
+                - generic [ref=e1466]: "})"
+                - generic [ref=e1467]: await mcp.connect(new StdioServerTransport())
+                - generic [ref=e1468]: "// --- HTTP on :8788: GET /events streams outbound, POST routes inbound -------"
+                - generic [ref=e1469]: "const PERMISSION_REPLY_RE = /^\\s*(y|yes|n|no)\\s+([a-km-z]{5})\\s*$/i"
+                - generic [ref=e1470]: let nextId = 1
+                - generic [ref=e1471]: "Bun.serve({"
+                - generic [ref=e1472]: "port: 8788,"
+                - generic [ref=e1473]: "hostname: '127.0.0.1',"
+                - generic [ref=e1474]: "idleTimeout: 0, // don't close idle SSE streams"
+                - generic [ref=e1475]: "async fetch(req) {"
+                - generic [ref=e1476]: const url = new URL(req.url)
+                - generic [ref=e1477]: "// GET /events: SSE stream so curl -N can watch replies and prompts live"
+                - generic [ref=e1478]: "if (req.method === 'GET' && url.pathname === '/events') {"
+                - generic [ref=e1479]: "const stream = new ReadableStream({"
+                - generic [ref=e1480]: "start(ctrl) {"
+                - generic [ref=e1481]: "ctrl.enqueue(': connected\\n\\n') // so curl shows something immediately"
+                - generic [ref=e1482]: "const emit = (chunk: string) => ctrl.enqueue(chunk)"
+                - generic [ref=e1483]: listeners.add(emit)
+                - generic [ref=e1484]: req.signal.addEventListener('abort', () => listeners.delete(emit))
+                - generic [ref=e1485]: "},"
+                - generic [ref=e1486]: "})"
+                - generic [ref=e1487]: "return new Response(stream, {"
+                - generic [ref=e1488]: "headers: { 'Content-Type': 'text/event-stream', 'Cache-Control': 'no-cache' },"
+                - generic [ref=e1489]: "})"
+                - generic [ref=e1490]: "}"
+                - generic [ref=e1491]: "// everything else is inbound: gate on sender first"
+                - generic [ref=e1492]: const body = await req.text()
+                - generic [ref=e1493]: const sender = req.headers.get('X-Sender') ?? ''
+                - generic [ref=e1494]: "if (!allowed.has(sender)) return new Response('forbidden', { status: 403 })"
+                - generic [ref=e1495]: // check for verdict format before treating as chat
+                - generic [ref=e1496]: const m = PERMISSION_REPLY_RE.exec(body)
+                - generic [ref=e1497]: "if (m) {"
+                - generic [ref=e1498]: "await mcp.notification({"
+                - generic [ref=e1499]: "method: 'notifications/claude/channel/permission',"
+                - generic [ref=e1500]: "params: {"
+                - generic [ref=e1501]: "request_id: m[2].toLowerCase(),"
+                - generic [ref=e1502]: "behavior: m[1].toLowerCase().startsWith('y') ? 'allow' : 'deny',"
+                - generic [ref=e1503]: "},"
+                - generic [ref=e1504]: "})"
+                - generic [ref=e1505]: return new Response('verdict recorded')
+                - generic [ref=e1506]: "}"
+                - generic [ref=e1507]: "// normal chat: forward to Claude as a channel event"
+                - generic [ref=e1508]: const chat_id = String(nextId++)
+                - generic [ref=e1509]: "await mcp.notification({"
+                - generic [ref=e1510]: "method: 'notifications/claude/channel',"
+                - generic [ref=e1511]: "params: { content: body, meta: { chat_id, path: url.pathname } },"
+                - generic [ref=e1512]: "})"
+                - generic [ref=e1513]: return new Response('ok')
+                - generic [ref=e1514]: "},"
+                - generic [ref=e1515]: "})"
+              - button "See all 132 lines" [ref=e1517] [cursor=pointer]:
+                - img [ref=e1518]
+                - text: See all 132 lines
+            - generic [ref=e1522]:
+              - text: Test the verdict path in three terminals. The first is your Claude Code session, started with the
+              - link "development flag" [ref=e1523] [cursor=pointer]:
+                - /url: "#test-during-the-research-preview"
+              - text: so it spawns
+              - code [ref=e1524]: webhook.ts
+              - text: ":"
+            - generic [ref=e1525]:
+              - generic [ref=e1526]:
+                - button "Report incorrect code" [ref=e1528] [cursor=pointer]:
+                  - img [ref=e1529]
+                - button "Copy the contents from the code block" [ref=e1532] [cursor=pointer]:
+                  - img [ref=e1533]
+                - button "Ask AI" [ref=e1537] [cursor=pointer]:
+                  - img [ref=e1538]
+              - code [ref=e1544]:
+                - generic [ref=e1545]: claude --dangerously-load-development-channels server:webhook
+            - generic [ref=e1546]: "In the second, stream the outbound side so you can see Claude’s replies and any permission prompts as they fire:"
+            - generic [ref=e1547]:
+              - generic [ref=e1548]:
+                - button "Report incorrect code" [ref=e1550] [cursor=pointer]:
+                  - img [ref=e1551]
+                - button "Copy the contents from the code block" [ref=e1554] [cursor=pointer]:
+                  - img [ref=e1555]
+                - button "Ask AI" [ref=e1559] [cursor=pointer]:
+                  - img [ref=e1560]
+              - code [ref=e1566]:
+                - generic [ref=e1567]: curl -N localhost:8788/events
+            - generic [ref=e1568]: "In the third, send a message that will make Claude try to run a command:"
+            - generic [ref=e1569]:
+              - generic [ref=e1570]:
+                - button "Report incorrect code" [ref=e1572] [cursor=pointer]:
+                  - img [ref=e1573]
+                - button "Copy the contents from the code block" [ref=e1576] [cursor=pointer]:
+                  - img [ref=e1577]
+                - button "Ask AI" [ref=e1581] [cursor=pointer]:
+                  - img [ref=e1582]
+              - code [ref=e1588]:
+                - generic [ref=e1589]: "curl -d \"list the files in this directory\" -H \"X-Sender: dev\" localhost:8788"
+            - generic [ref=e1590]:
+              - text: The local permission dialog opens in your Claude Code terminal. A moment later the prompt appears in the
+              - code [ref=e1591]: /events
+              - text: "stream, including the five-letter ID. Approve it from the remote side:"
+            - generic [ref=e1592]:
+              - generic [ref=e1593]:
+                - button "Report incorrect code" [ref=e1595] [cursor=pointer]:
+                  - img [ref=e1596]
+                - button "Copy the contents from the code block" [ref=e1599] [cursor=pointer]:
+                  - img [ref=e1600]
+                - button "Ask AI" [ref=e1604] [cursor=pointer]:
+                  - img [ref=e1605]
+              - code [ref=e1611]:
+                - generic [ref=e1612]: "curl -d \"yes <id>\" -H \"X-Sender: dev\" localhost:8788"
+            - generic [ref=e1613]:
+              - text: The local dialog closes and the tool runs. Claude’s reply comes back through the
+              - code [ref=e1614]: reply
+              - text: tool and lands in the stream too.
+            - generic [ref=e1615]: "The three channel-specific pieces in this file:"
+            - list [ref=e1616]:
+              - listitem [ref=e1617]:
+                - strong [ref=e1618]: Capabilities
+                - text: in the
+                - code [ref=e1619]: Server
+                - text: "constructor:"
+                - code [ref=e1620]: claude/channel
+                - text: registers the notification listener,
+                - code [ref=e1621]: claude/channel/permission
+                - text: opts in to permission relay,
+                - code [ref=e1622]: tools
+                - text: lets Claude discover the reply tool.
+              - listitem [ref=e1623]:
+                - strong [ref=e1624]: Outbound paths
+                - text: ": the"
+                - code [ref=e1625]: reply
+                - text: tool handler is what Claude calls for conversational responses; the
+                - code [ref=e1626]: PermissionRequestSchema
+                - text: notification handler is what Claude Code calls when a permission dialog opens. Both call
+                - code [ref=e1627]: send()
+                - text: to broadcast over
+                - code [ref=e1628]: /events
+                - text: ", but they’re triggered by different parts of the system."
+              - listitem [ref=e1629]:
+                - strong [ref=e1630]: HTTP handler
+                - text: ":"
+                - code [ref=e1631]: GET /events
+                - text: holds an SSE stream open so curl can watch outbound live;
+                - code [ref=e1632]: POST
+                - text: is inbound, gated on the
+                - code [ref=e1633]: X-Sender
+                - text: header. A
+                - code [ref=e1634]: yes <id>
+                - text: or
+                - code [ref=e1635]: no <id>
+                - text: body goes to Claude Code as a verdict notification and never reaches Claude; anything else is forwarded to Claude as a channel event.
+            - heading "Navigate to header Package as a plugin" [level=2] [ref=e1636]:
+              - link "Navigate to header" [ref=e1637] [cursor=pointer]:
+                - /url: "#package-as-a-plugin"
+                - img [ref=e1639]
+              - generic [ref=e1641] [cursor=pointer]: Package as a plugin
+            - generic [ref=e1642]:
+              - text: To make your channel installable and shareable, wrap it in a
+              - link "plugin" [ref=e1643] [cursor=pointer]:
+                - /url: /docs/en/plugins
+              - text: and publish it to a
+              - link "marketplace" [ref=e1644] [cursor=pointer]:
+                - /url: /docs/en/plugin-marketplaces
+              - text: . Users install it with
+              - code [ref=e1645]: /plugin install
+              - text: ", then enable it per session with"
+              - code [ref=e1646]: "--channels plugin:<name>@<marketplace>"
+              - text: .
+            - generic [ref=e1647]:
+              - text: A channel published to your own marketplace still needs
+              - code [ref=e1648]: "--dangerously-load-development-channels"
+              - text: to run, since it isn’t on the
+              - link "approved allowlist" [ref=e1649] [cursor=pointer]:
+                - /url: /docs/en/channels#supported-channels
+              - text: . To get it added,
+              - link "submit it to the official marketplace" [ref=e1650] [cursor=pointer]:
+                - /url: /docs/en/plugins#submit-your-plugin-to-the-official-marketplace
+              - text: . Channel plugins go through security review before being approved. On Team and Enterprise plans, an admin can instead include your plugin in the organization’s own
+              - link "allowedChannelPlugins" [ref=e1651] [cursor=pointer]:
+                - /url: /docs/en/channels#restrict-which-channel-plugins-can-run
+                - code [ref=e1652]: allowedChannelPlugins
+              - text: list, which replaces the default Anthropic allowlist.
+            - heading "Navigate to header See also" [level=2] [ref=e1653]:
+              - link "Navigate to header" [ref=e1654] [cursor=pointer]:
+                - /url: "#see-also"
+                - img [ref=e1656]
+              - generic [ref=e1658] [cursor=pointer]: See also
+            - list [ref=e1659]:
+              - listitem [ref=e1660]:
+                - link "Channels" [ref=e1661] [cursor=pointer]:
+                  - /url: /docs/en/channels
+                - text: to install and use Telegram, Discord, iMessage, or the fakechat demo, and to enable channels for a Team or Enterprise org
+              - listitem [ref=e1662]:
+                - link "Working channel implementations" [ref=e1663] [cursor=pointer]:
+                  - /url: https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins
+                - text: for complete server code with pairing flows, reply tools, and file attachments
+              - listitem [ref=e1664]:
+                - link "MCP" [ref=e1665] [cursor=pointer]:
+                  - /url: /docs/en/mcp
+                - text: for the underlying protocol that channel servers implement
+              - listitem [ref=e1666]:
+                - link "Plugins" [ref=e1667] [cursor=pointer]:
+                  - /url: /docs/en/plugins
+                - text: to package your channel so users can install it with
+                - code [ref=e1668]: /plugin install
+          - generic [ref=e1670]:
+            - paragraph [ref=e1671]: Was this page helpful?
+            - generic [ref=e1673]:
+              - button "Yes" [ref=e1674] [cursor=pointer]:
+                - img [ref=e1675]
+                - generic [ref=e1677]: "Yes"
+              - button "No" [ref=e1678] [cursor=pointer]:
+                - img [ref=e1679]
+                - generic [ref=e1681]: "No"
+          - generic [ref=e1682]:
+            - link "Plugins reference" [ref=e1683] [cursor=pointer]:
+              - /url: /docs/en/plugins-reference
+              - img [ref=e1684]
+              - generic [ref=e1686]: Plugins reference
+            - link "Glossary" [ref=e1687] [cursor=pointer]:
+              - /url: /docs/en/glossary
+              - generic [ref=e1688]: Glossary
+              - img [ref=e1689]
+          - generic [ref=e1692]:
+            - textbox "Ask a question..." [ref=e1693]
+            - generic: ⌘I
+            - button "Send message" [disabled] [ref=e1694]:
+              - img [ref=e1695]
+      - contentinfo [ref=e1697]:
+        - generic [ref=e1699]:
+          - generic [ref=e1700]:
+            - link "Claude Code Docs home page light logo" [ref=e1701] [cursor=pointer]:
+              - /url: /docs/en/overview
+              - generic [ref=e1702]: Claude Code Docs home page
+              - img "light logo" [ref=e1703]
+            - generic [ref=e1704]:
+              - link "x" [ref=e1705] [cursor=pointer]:
+                - /url: https://x.com/AnthropicAI
+                - generic [ref=e1706]: x
+                - img [ref=e1707]
+              - link "linkedin" [ref=e1708] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/anthropicresearch
+                - generic [ref=e1709]: linkedin
+                - img [ref=e1710]
+          - generic [ref=e1711]:
+            - generic [ref=e1713]:
+              - paragraph [ref=e1714]: Company
+              - link "Anthropic" [ref=e1715] [cursor=pointer]:
+                - /url: https://www.anthropic.com/company
+              - link "Careers" [ref=e1716] [cursor=pointer]:
+                - /url: https://www.anthropic.com/careers
+              - link "Economic Futures" [ref=e1717] [cursor=pointer]:
+                - /url: https://www.anthropic.com/economic-futures
+              - link "Research" [ref=e1718] [cursor=pointer]:
+                - /url: https://www.anthropic.com/research
+              - link "News" [ref=e1719] [cursor=pointer]:
+                - /url: https://www.anthropic.com/news
+              - link "Trust center" [ref=e1720] [cursor=pointer]:
+                - /url: https://trust.anthropic.com/
+              - link "Transparency" [ref=e1721] [cursor=pointer]:
+                - /url: https://www.anthropic.com/transparency
+            - generic [ref=e1723]:
+              - paragraph [ref=e1724]: Help and security
+              - link "Availability" [ref=e1725] [cursor=pointer]:
+                - /url: https://www.anthropic.com/supported-countries
+              - link "Status" [ref=e1726] [cursor=pointer]:
+                - /url: https://status.anthropic.com/
+              - link "Support center" [ref=e1727] [cursor=pointer]:
+                - /url: https://support.claude.com/
+            - generic [ref=e1729]:
+              - paragraph [ref=e1730]: Learn
+              - link "Courses" [ref=e1731] [cursor=pointer]:
+                - /url: https://www.anthropic.com/learn
+              - link "MCP connectors" [ref=e1732] [cursor=pointer]:
+                - /url: https://claude.com/partners/mcp
+              - link "Customer stories" [ref=e1733] [cursor=pointer]:
+                - /url: https://www.claude.com/customers
+              - link "Engineering blog" [ref=e1734] [cursor=pointer]:
+                - /url: https://www.anthropic.com/engineering
+              - link "Events" [ref=e1735] [cursor=pointer]:
+                - /url: https://www.anthropic.com/events
+              - link "Powered by Claude" [ref=e1736] [cursor=pointer]:
+                - /url: https://claude.com/partners/powered-by-claude
+              - link "Service partners" [ref=e1737] [cursor=pointer]:
+                - /url: https://claude.com/partners/services
+              - link "Startups program" [ref=e1738] [cursor=pointer]:
+                - /url: https://claude.com/programs/startups
+            - generic [ref=e1740]:
+              - paragraph [ref=e1741]: Terms and policies
+              - link "Privacy choices" [ref=e1742] [cursor=pointer]:
+                - /url: "#"
+              - link "Privacy policy" [ref=e1743] [cursor=pointer]:
+                - /url: https://www.anthropic.com/legal/privacy
+              - link "Disclosure policy" [ref=e1744] [cursor=pointer]:
+                - /url: https://www.anthropic.com/responsible-disclosure-policy
+              - link "Usage policy" [ref=e1745] [cursor=pointer]:
+                - /url: https://www.anthropic.com/legal/aup
+              - link "Commercial terms" [ref=e1746] [cursor=pointer]:
+                - /url: https://www.anthropic.com/legal/commercial-terms
+              - link "Consumer terms" [ref=e1747] [cursor=pointer]:
+                - /url: https://www.anthropic.com/legal/consumer-terms
+    - generic:
+      - generic [ref=e1749]:
+        - generic [ref=e1750]:
+          - img [ref=e1751]
+          - generic [ref=e1754]: Assistant
+        - generic [ref=e1755]:
+          - button [ref=e1756] [cursor=pointer]:
+            - img [ref=e1757]
+          - button [ref=e1762] [cursor=pointer]:
+            - img [ref=e1763]
+      - generic [ref=e1767]: Responses are generated using AI and may contain mistakes.
+      - generic [ref=e1769]:
+        - textbox [ref=e1770]:
+          - /placeholder: Ask a question...
+        - generic [ref=e1771]:
+          - button [ref=e1772] [cursor=pointer]:
+            - img [ref=e1773]
+          - button [disabled] [ref=e1775]:
+            - img [ref=e1776]

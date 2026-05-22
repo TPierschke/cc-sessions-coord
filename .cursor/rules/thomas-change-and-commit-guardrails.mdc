@@ -1,0 +1,13 @@
+# Thomas change and commit guardrails (strict)
+
+For this workspace, apply these user directives as top working policy:
+
+1. No code/file changes without explicit user approval in chat.
+2. Work in micro-commit style (small, atomic changes).
+3. Before any commit, bump versions across all affected components (BE, FE, broker, bridge, and related parts that changed in this task).
+4. After each approved change batch, commit immediately (do not wait for extra confirmation in the same batch).
+5. Never run `git push` automatically. Push is user-only.
+
+Important:
+- If a platform/system safety policy conflicts with point 4, follow platform policy and inform the user briefly.
+- If no commit was requested at all, ask once before first commit.

@@ -1,0 +1,9 @@
+# Channel bridge — regression guard
+
+When editing `src/CcSessionsCoord.ChannelBridge/**`:
+
+1. Run `scripts/verify-bridge.ps1` (or `npm run verify` in ChannelBridge) before claiming done.
+2. Never remove: `LISTEN` + `claimBatch` + HTTP legacy `channel: 'ccsc'` notify (see `docs/ops/channel-inject-regression-guard.md`).
+3. Never re-introduce `ingress-only` boot or `expect_session` HTTP gate.
+4. Do not `git reset --hard` on this branch without `git branch backup/...` first.
+5. Commit `808c750`+ is the known-good inject baseline; cherry-picks `eeebc7b`, `808c750` — not `9791ca8d`.

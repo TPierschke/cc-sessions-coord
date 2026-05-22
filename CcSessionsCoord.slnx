@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CcSessionsCoord.Worker/CcSessionsCoord.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CcSessionsCoord.Tests/CcSessionsCoord.Tests.csproj" />
+  </Folder>
+  <Folder Name="/migrations/">
+    <File Path="migrations/V001__initial.sql" />
+    <File Path="migrations/V002__register_supersede_active_name.sql" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+    <File Path="CLAUDE.md" />
+    <File Path="docs/current-stand-ccsc.md" />
+  </Folder>
+</Solution>

@@ -1,0 +1,7 @@
+{
+  "explorer.autoReveal": true,
+  "workbench.editor.openSideBySideDirection": "right",
+  "workbench.editor.openPositioning": "right",
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editor.enablePreview": false
+}

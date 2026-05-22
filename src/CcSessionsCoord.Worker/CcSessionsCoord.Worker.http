@@ -1,0 +1,7 @@
+@CcSessionsCoord.Worker_HostAddress = http://localhost:5027
+
+GET {{CcSessionsCoord.Worker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+

@@ -1,0 +1,16 @@
+---
+description: Register this Cursor workspace with cc-sessions-coord when working here
+alwaysApply: true
+---
+
+# ccsc — Cursor workspace registration
+
+For **each new user message** in this workspace (`cc-sessions-coord`), run **at most once** before your main answer (after you know the repo path is this project):
+
+```text
+pwsh -NoProfile -ExecutionPolicy Bypass -File scripts/ccsc-cursor-touch.ps1
+```
+
+- If the worker is **not** running, **do not** block the user: the script prints a yellow skip line; continue normally.
+- Do **not** spawn `-Loop` from the agent unless the user explicitly asked for a long-running heartbeat.
+- This is **not** the Claude Code channel bridge; it only upserts `coord.sessions` with `session_client=cursor` so peers/coord see this IDE.

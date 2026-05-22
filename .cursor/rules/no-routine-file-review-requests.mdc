@@ -1,0 +1,10 @@
+---
+description: Do not ask the human to review file lists or walk diffs after routine work
+alwaysApply: true
+---
+
+# Human review
+
+- After finishing a task, **do not** ask the user to review individual files, whole directory trees, or full diffs for sign-off unless they **explicitly** asked for a code review.
+- Prefer a **short outcome summary** (what changed, what to run, risks) instead of enumerating paths.
+- Do **not** paste large unchanged boilerplate or entire handover/spec documents into chat to “please confirm”.

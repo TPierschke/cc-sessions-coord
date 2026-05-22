@@ -1,0 +1,62 @@
+cc-sessions-coord — Source Available License
+
+Version: 1.0 (2026-05-21)
+
+Copyright (c) 2026 Thomas Pierschke. All rights reserved.
+
+This document is the copyright holder's binding terms for use of this software.
+The text below is the copyright holder's statement of intent for any publication
+of this repository: internal use is permitted; commercial exploitation as a product
+or service for third parties requires separate written permission.
+
+## 1. Grant (permitted use)
+
+You may use, copy, modify, and run this software **only** for **your own** internal
+business or personal operations — including professional use at work
+within **your** organization or on **your** machines.
+
+You may keep private modifications for that internal use only.
+
+## 2. Restrictions (prohibited without written permission)
+
+Without **prior written permission** from Thomas Pierschke (the copyright holder),
+you must **not**:
+
+(a) **Sell**, sublicense for a fee, or otherwise **monetize** this software or any
+    derivative;
+
+(b) **Offer** this software (or a derivative) as a **hosted**, **managed**,
+    **multi-tenant**, **SaaS**, or similar **service to third parties**;
+
+(c) **Distribute** to third parties a **product** (paid or free) that is
+    **substantially based on** this software (including a competing product built
+    from a public fork);
+
+(d) **Publicly fork** or republish the code **primarily to** pursue (a)–(c).
+
+Cloning or viewing the repository for **evaluation** or **internal use** under
+section 1 is permitted.
+
+## 3. Commercial / product licensing (exceptions)
+
+If you wish to **ship a product**, **offer a service**, or otherwise **commercialize**
+this software (or a derivative) for third parties, you must obtain a **separate
+written license** from the copyright holder **before** doing so.
+
+Contact: thomas.pierschke@icloud.com (subject: cc-sessions-coord license).
+
+## 4. No trademark
+
+This license does not grant rights to names, logos, or branding.
+
+## 5. Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE COPYRIGHT HOLDER
+IS NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM USE OF THE
+SOFTWARE.
+
+## 6. Changes to these terms
+
+The copyright holder may publish revised license text for **future** releases.
+Use of a copy obtained under an earlier published `LICENSE` version remains governed
+by that version unless you agree to newer terms.

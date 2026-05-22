@@ -1,0 +1,16 @@
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+.env
+*.log
+
+.claude/
+.gitnexus
+
+# Node / ChannelMcp
+node_modules/
+src/CcSessionsCoord.ChannelMcp/dist/
+src/CcSessionsCoord.ChannelBridge/dist/
